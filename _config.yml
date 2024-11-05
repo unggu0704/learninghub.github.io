@@ -1,3 +1,5 @@
 title: "My Blog"
 description: "A blog built using Jekyll and GitHub Pages"
-theme: minima
+theme: minima     # 기본 Jekyll 테마 사용
+baseurl: ""       # URL의 서브 경로
+url: "https://unggu0704.github.io/learninghub.github.io/"  # 사이트의 기본 URL

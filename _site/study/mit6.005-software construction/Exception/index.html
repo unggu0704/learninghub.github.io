@@ -31,18 +31,19 @@
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.4" />
 <meta property="og:title" content="Exception" />
+<meta name="author" content="김규형" />
 <meta property="og:locale" content="ko_KR" />
-<meta name="description" content="Exceptions (23.09.23)" />
-<meta property="og:description" content="Exceptions (23.09.23)" />
-<link rel="canonical" href="http://localhost:4000/learninghub/Exception/" />
-<meta property="og:url" content="http://localhost:4000/learninghub/Exception/" />
+<meta name="description" content="Exceptions for signaling bugs" />
+<meta property="og:description" content="Exceptions for signaling bugs" />
+<link rel="canonical" href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Exception/" />
+<meta property="og:url" content="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Exception/" />
 <meta property="og:site_name" content="Unggu" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-12-15T00:00:00+09:00" />
+<meta property="article:published_time" content="2024-12-15T15:10:00+09:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Exception" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-12-15T00:00:00+09:00","datePublished":"2024-12-15T00:00:00+09:00","description":"Exceptions (23.09.23)","headline":"Exception","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/learninghub/Exception/"},"url":"http://localhost:4000/learninghub/Exception/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"김규형"},"dateModified":"2024-12-15T15:10:00+09:00","datePublished":"2024-12-15T15:10:00+09:00","description":"Exceptions for signaling bugs","headline":"Exception","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/learninghub/study/mit6.005-software%20construction/Exception/"},"url":"http://localhost:4000/learninghub/study/mit6.005-software%20construction/Exception/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -253,7 +254,7 @@
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
-    <a href="/learninghub/" id="avatar" class="rounded-circle"><img src="https://www.shutterstock.com/image-photo/odeng-fish-cake-soup-korean-260nw-2482904725.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
+    <a href="/learninghub/" id="avatar" class="rounded-circle"><img src="https://unggu0704.github.io/learninghub/assets/img/favicons/unggu.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
 
     <a class="site-title d-block" href="/learninghub/">Unggu</a>
     <p class="site-subtitle fst-italic mb-0">뇌 원격 저장소</p>
@@ -425,6 +426,10 @@
               <a href="/learninghub/">홈</a>
             </span>
 
+          
+        
+          
+        
           
         
           
@@ -637,7 +642,7 @@
 
 <time
   
-  data-ts="1734188400"
+  data-ts="1734243000"
   data-df="YYYY/MM/DD"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -662,7 +667,10 @@
 
           <em>
             
-              <a href="https://twitter.com/username">김규형</a>
+              
+                
+                
+              
             
           </em>
         </span>
@@ -692,7 +700,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="1722 단어"
+  title="1720 단어"
 >
   <em>9 분</em>읽는 시간</span>
 
@@ -726,9 +734,7 @@
   
 
   <div class="content">
-    <h1 id="exceptions-230923">Exceptions (23.09.23)</h1>
-
-<h2 id="exceptions-for-signaling-bugs"><span class="me-2">Exceptions for signaling bugs</span><a href="#exceptions-for-signaling-bugs" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+    <h2 id="exceptions-for-signaling-bugs"><span class="me-2">Exceptions for signaling bugs</span><a href="#exceptions-for-signaling-bugs" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <ul>
   <li>자바 프로그래밍에는 다양한 예외가 있다.
@@ -929,8 +935,30 @@
   <div class="post-tail-wrapper text-muted">
     <!-- categories -->
     
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/learninghub/categories/study/">Study</a>,
+          <a href="/learninghub/categories/mit6-005-software-construction/">MIT6.005-Software Construction</a>
+      </div>
+    
 
     <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/learninghub/tags/sw-engineering/"
+            class="post-tag no-text-decoration"
+          >sw-engineering</a>
+        
+          <a
+            href="/learninghub/tags/sw%EA%B3%B5%ED%95%99/"
+            class="post-tag no-text-decoration"
+          >SW공학</a>
+        
+      </div>
     
 
     <div
@@ -964,21 +992,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Exception%20-%20Unggu&url=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2FException%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Exception%20-%20Unggu&url=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2Fstudy%2Fmit6.005-software%2520construction%2FException%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Exception%20-%20Unggu&u=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2FException%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Exception%20-%20Unggu&u=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2Fstudy%2Fmit6.005-software%2520construction%2FException%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2FException%2F&text=Exception%20-%20Unggu" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2Fstudy%2Fmit6.005-software%2520construction%2FException%2F&text=Exception%20-%20Unggu" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1033,6 +1061,20 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/learninghub/study/mit6.005-software%20construction/Mutability-&-Immutability/">Mutability & immutability</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/learninghub/study/mit6.005-software%20construction/Debugguing/">Debugguing</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/learninghub/education/nhn%20academy/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B8%80%EC%9E%85%EB%8B%88%EB%8B%A4/">내맘대로 제목</a>
         </li>
       
@@ -1048,20 +1090,6 @@
         
         <li class="text-truncate lh-lg">
           <a href="/learninghub/tech/jekyll-blog/Ubuntu%EC%97%90%EB%9F%AC/">Ubuntu runner가 업그레이드 됨</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/learninghub/study/mit6.005-%20software%20construction/Abstract-Data-Types(23.10.04)/">Abstract data types(23.10.04)</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/learninghub/study/mit6.005-%20software%20construction/Abstraction-Functions-&-Rep-Invariants/">Abstraction functions & rep invariants</a>
         </li>
       
     </ul>
@@ -1199,6 +1227,189 @@
 
 
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 
 
@@ -1208,6 +1419,133 @@
 
 
 
+
+
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">관련된 글</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/learninghub/study/mit6.005-software%20construction/Mutability-&-Immutability/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1734243000"
+  data-df="YYYY/MM/DD"
+  
+>
+  2024/12/15
+</time>
+
+              <h4 class="pt-0 my-2">Mutability & immutability</h4>
+              <div class="text-muted">
+                <p>Object
+
+
+  가변 객체와 가변성에 대해 이핸다.
+  allasing(별명 짓기)를 Identify 성과 가변성의 위험을 이해
+  불변성을 사용해 정확성, 명확성,등을 개선한다.
+
+
+**Mutability**
+
+
+  Java의 일부 객체는 불변성을 가지고 있다.
+  한번 생성되면 → 항상 동일한 값을 가지고 있다. [Immutability]
+  ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/learninghub/study/mit6.005-software%20construction/Interface/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1734243000"
+  data-df="YYYY/MM/DD"
+  
+>
+  2024/12/15
+</time>
+
+              <h4 class="pt-0 my-2">Interface</h4>
+              <div class="text-muted">
+                <p>Objectives
+
+
+  ADT를 정의하고 인터페이스를 구현하는 클래스를 작성하기
+
+
+Interfaces
+
+
+  자바의 interface 는 추상 데이터 유형 표현해 유용한 언어 메커니즘
+  메서드 시그니쳐는 있지만… bodies는 없다.
+  interface 는 모든 메서드에 대한 메서드 bodies를 정의한다. 따라서 JAVA에서 인터페이스는 추...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/learninghub/study/mit6.005-software%20construction/Equality/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1734243000"
+  data-df="YYYY/MM/DD"
+  
+>
+  2024/12/15
+</time>
+
+              <h4 class="pt-0 my-2">Equality</h4>
+              <div class="text-muted">
+                <p>Introduction
+
+추상화 함수에서 equality 연산을 정의 하는 방법
+
+**Three Ways to Regard Equality**
+
+
+  equality를 바라보는 다양한 방법
+  추상화 함수 사용(Using an abstraction function)
+    
+      추상화 함수 $F$ 를 정의해 $F(a) = F(b)$ 인 경우에만...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
 
 
             
@@ -1220,7 +1558,7 @@
 
   
     <a
-      href="/learninghub/Equality/"
+      href="/learninghub/study/mit6.005-software%20construction/Equality/"
       class="btn btn-outline-primary"
       aria-label="이전 글"
     >
@@ -1230,7 +1568,7 @@
 
   
     <a
-      href="/learninghub/Interface/"
+      href="/learninghub/study/mit6.005-software%20construction/Interface/"
       class="btn btn-outline-primary"
       aria-label="다음 글"
     >

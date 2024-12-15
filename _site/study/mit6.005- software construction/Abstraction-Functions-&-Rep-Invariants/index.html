@@ -254,7 +254,7 @@
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
-    <a href="/learninghub/" id="avatar" class="rounded-circle"><img src="https://www.shutterstock.com/image-photo/odeng-fish-cake-soup-korean-260nw-2482904725.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
+    <a href="/learninghub/" id="avatar" class="rounded-circle"><img src="https://unggu0704.github.io/learninghub/assets/img/favicons/unggu.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
 
     <a class="site-title d-block" href="/learninghub/">Unggu</a>
     <p class="site-subtitle fst-italic mb-0">뇌 원격 저장소</p>
@@ -1731,6 +1731,20 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/learninghub/study/mit6.005-software%20construction/Mutability-&-Immutability/">Mutability & immutability</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/learninghub/study/mit6.005-software%20construction/Debugguing/">Debugguing</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/learninghub/education/nhn%20academy/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B8%80%EC%9E%85%EB%8B%88%EB%8B%A4/">내맘대로 제목</a>
         </li>
       
@@ -1746,20 +1760,6 @@
         
         <li class="text-truncate lh-lg">
           <a href="/learninghub/tech/jekyll-blog/Ubuntu%EC%97%90%EB%9F%AC/">Ubuntu runner가 업그레이드 됨</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/learninghub/study/mit6.005-%20software%20construction/Abstract-Data-Types(23.10.04)/">Abstract data types(23.10.04)</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/learninghub/study/mit6.005-%20software%20construction/Abstraction-Functions-&-Rep-Invariants/">Abstraction functions & rep invariants</a>
         </li>
       
     </ul>
@@ -1949,6 +1949,138 @@
 
   
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
 
@@ -1964,7 +2096,7 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/learninghub/study/mit6.005-%20software%20construction/Vison-Control/" class="post-preview card h-100">
+          <a href="/learninghub/study/mit6.005-software%20construction/Mutability-&-Immutability/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1983,27 +2115,68 @@
   2024/12/15
 </time>
 
-              <h4 class="pt-0 my-2">Vison control</h4>
+              <h4 class="pt-0 my-2">Mutability & immutability</h4>
+              <div class="text-muted">
+                <p>Object
+
+
+  가변 객체와 가변성에 대해 이핸다.
+  allasing(별명 짓기)를 Identify 성과 가변성의 위험을 이해
+  불변성을 사용해 정확성, 명확성,등을 개선한다.
+
+
+**Mutability**
+
+
+  Java의 일부 객체는 불변성을 가지고 있다.
+  한번 생성되면 → 항상 동일한 값을 가지고 있다. [Immutability]
+  ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/learninghub/study/mit6.005-software%20construction/Interface/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1734243000"
+  data-df="YYYY/MM/DD"
+  
+>
+  2024/12/15
+</time>
+
+              <h4 class="pt-0 my-2">Interface</h4>
               <div class="text-muted">
                 <p>Objectives
 
 
-  version control이 무엇이고 왜 사용하는지 파악합니다.
-  어떻게 git이 version history를 그래프로 저장하는지 이해합니다.
-  version history를 사용하고 읽고 만드는것을 연습합니다.
+  ADT를 정의하고 인터페이스를 구현하는 클래스를 작성하기
 
 
-Introduction
+Interfaces
 
 
-  Version control 시스템은 소프트웨어 공학에선 필수적인 도구입...</p>
+  자바의 interface 는 추상 데이터 유형 표현해 유용한 언어 메커니즘
+  메서드 시그니쳐는 있지만… bodies는 없다.
+  interface 는 모든 메서드에 대한 메서드 bodies를 정의한다. 따라서 JAVA에서 인터페이스는 추...</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/learninghub/study/mit6.005-%20software%20construction/Debugguing/" class="post-preview card h-100">
+          <a href="/learninghub/study/mit6.005-software%20construction/Exception/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -2022,62 +2195,16 @@ Introduction
   2024/12/15
 </time>
 
-              <h4 class="pt-0 my-2">Debugguing</h4>
+              <h4 class="pt-0 my-2">Exception</h4>
               <div class="text-muted">
-                <p>Objects
+                <p>Exceptions for signaling bugs
+
+
+  자바 프로그래밍에는 다양한 예외가 있다.
     
-      체계적인 디버깅
-      디버깅이 선택되어 질 때가 있다. (전체 시스템이 함께 연결되거나, 배포 후에 사용자 보고)
-      버그가 현지화가 불가능 할때에는 디버깅이 좋은 전략이 될 수도 있다.
-    
-  
-
-
-Reproduce the Bug
-
-
-  고장을 야기하는 테스트케이스를 반복해서 시도한다.
-  regr...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/learninghub/study/mit6.005-%20software%20construction/Abstract-Data-Types(23.10.04)/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1734243000"
-  data-df="YYYY/MM/DD"
-  
->
-  2024/12/15
-</time>
-
-              <h4 class="pt-0 my-2">Abstract data types(23.10.04)</h4>
-              <div class="text-muted">
-                <p>Objects
-
-
-  추상 자료형
-  표현 독립성
-  추상 데이터 유형의 위험한 문제를 해결하고, 클라이언트가 내부 표현에 대한 가정이 왜 위험하고, 어떻게 그것을 피할 수 있는가?
-  연산의 분류와 추상적인 데이터 유형에 대한 좋은 설계 원리를 세우는법
-
-
-What Abstraction Means
-
-
-  추상화 데이터 유형은 소프트웨어 공학의 일반적...</p>
+      ArrayIndex-OutOfBoundsExceions 같은…
+      NullPointerException 또한 일반적인 예외이다.
+      NumberFormatException 은 Interger.parseInt 정수로 구...</p>
               </div>
             </div>
           </a>
@@ -2098,7 +2225,7 @@ What Abstraction Means
 
   
     <a
-      href="/learninghub/study/mit6.005-%20software%20construction/Abstract-Data-Types(23.10.04)/"
+      href="/learninghub/study/mit6.005-software%20construction/Abstract-Data-Types(23.10.04)/"
       class="btn btn-outline-primary"
       aria-label="이전 글"
     >
@@ -2108,11 +2235,11 @@ What Abstraction Means
 
   
     <a
-      href="/learninghub/study/mit6.005-%20software%20construction/Debugguing/"
+      href="/learninghub/study/mit6.005-software%20construction/Avoiding-Debugging/"
       class="btn btn-outline-primary"
       aria-label="다음 글"
     >
-      <p>Debugguing</p>
+      <p>Avoiding debugging</p>
     </a>
   
 </nav>

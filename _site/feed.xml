@@ -4,7 +4,7 @@
   <id>http://localhost:4000/learninghub/</id>
   <title>Unggu</title>
   <subtitle>엉구</subtitle>
-  <updated>2024-12-15T22:22:42+09:00</updated>
+  <updated>2024-12-15T22:52:59+09:00</updated>
   <author>
     <name>김규형</name>
     <uri>http://localhost:4000/learninghub/</uri>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Vison control</title>
-    <link href="http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Vison-Control/" rel="alternate" type="text/html" title="Vison control" />
+    <link href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Vison-Control/" rel="alternate" type="text/html" title="Vison control" />
     <published>2024-12-15T15:10:00+09:00</published>
   
     <updated>2024-12-15T15:10:00+09:00</updated>
   
-    <id>http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Vison-Control/</id>
-    <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Vison-Control/" />
+    <id>http://localhost:4000/learninghub/study/mit6.005-software%20construction/Vison-Control/</id>
+    <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Vison-Control/" />
     <author>
       <name>김규형</name>
     </author>
@@ -36,7 +36,7 @@
     
     <category term="Study" />
     
-    <category term="MIT6.005- Software Construction" />
+    <category term="MIT6.005-Software Construction" />
     
   
 
@@ -76,14 +76,14 @@ Inventing version control(버전 컨트롤의 발명)
 
   
   <entry>
-    <title>Mutability &amp; immutability</title>
-    <link href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Mutability-&amp;-Immutability/" rel="alternate" type="text/html" title="Mutability &amp;amp; immutability" />
+    <title>Testing</title>
+    <link href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Testing/" rel="alternate" type="text/html" title="Testing" />
     <published>2024-12-15T15:10:00+09:00</published>
   
     <updated>2024-12-15T15:10:00+09:00</updated>
   
-    <id>http://localhost:4000/learninghub/study/mit6.005-software%20construction/Mutability-&amp;-Immutability/</id>
-    <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Mutability-&amp;-Immutability/" />
+    <id>http://localhost:4000/learninghub/study/mit6.005-software%20construction/Testing/</id>
+    <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Testing/" />
     <author>
       <name>김규형</name>
     </author>
@@ -96,40 +96,36 @@ Inventing version control(버전 컨트롤의 발명)
     
   
 
-  <summary>Object
+  <summary>이번 장의 목표
 
 
-  가변 객체와 가변성에 대해 이핸다.
-  allasing(별명 짓기)를 Identify 성과 가변성의 위험을 이해
-  불변성을 사용해 정확성, 명확성,등을 개선한다.
+  Test-first programmin의 절차를 알고, 테스팅 값을 이해하는것
+  메소드의 input과 output에 적절한 테스트를 디자인 하고 좋은 TC를 고르는것
+  테스트가 코드에 어느 범위 까지 적용 되는것을 이해하는것
+  블랙박스와 화이트박스 테스트를 이해하고 유닛과 통합 테스트 그리고 자동 회귀 테스트를 이해한다.
 
 
-**Mutability**
+검증
 
 
-  Java의 일부 객체는 불변성을 가지고 있다.
-  한번 생성되면 → 항상 동일한 값을 가지고 있다. [Immutability]
-  한번 생성되면 → 추후 값을 변경하는 메소드가 있다. [Mutability]
-  
-    String 은 불변 타입의 가장 큰 예시이다. 같은 객체는 항상 동일한 문자열만을 나타낸다.
-
-      String s = &amp;quot;a&amp;quot;;
-  s = s.concat(&amp;quot;b&amp;quot;); // s+=&amp;quot;b&amp;quot; and s=s+&amp;quot;b&amp;quot; also mean the same thing
+  일반적으로 테스팅의 대부분 절차는 검증이라 불린다.
+  검증의 목표는 야기 될 수 있는 프로그램의 잠재적 문제를 찾아 정확성을 높이는 것.
+  검증은 아래를 포함한다.
     
- ...</summary>
+      Foraml reasoning(형식추론) : 공식 증명으로 프로그램을 검증한다. 손으로 하는것보다 tool을 주로 사용, 주로 운영체제 스케줄러, 바이트코...</summary>
 
   </entry>
 
   
   <entry>
-    <title>Debugguing</title>
-    <link href="http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Debugguing/" rel="alternate" type="text/html" title="Debugguing" />
+    <title>Static checking</title>
+    <link href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Static-Checking/" rel="alternate" type="text/html" title="Static checking" />
     <published>2024-12-15T15:10:00+09:00</published>
   
     <updated>2024-12-15T15:10:00+09:00</updated>
   
-    <id>http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Debugguing/</id>
-    <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Debugguing/" />
+    <id>http://localhost:4000/learninghub/study/mit6.005-software%20construction/Static-Checking/</id>
+    <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Static-Checking/" />
     <author>
       <name>김규형</name>
     </author>
@@ -138,41 +134,48 @@ Inventing version control(버전 컨트롤의 발명)
     
     <category term="Study" />
     
-    <category term="MIT6.005- Software Construction" />
+    <category term="MIT6.005-Software Construction" />
     
   
 
-  <summary>Objects
+  <summary>**Hailstone Sequence**
+
+
+  
+    n이 짝수일 때 n / 2, n이 홀수 일때 3n + 1
+
+      2, 1         
+  3, 10, 5, 16, 8, 4, 2, 1     
+  4, 2, 1
+  2n, 2n-1 , ... , 4, 2, 1
+  5, 16, 8, 4, 2, 1
+  7, 22, 11, 34, 17, 52, 6, 13, 40, ...? (where does this stop?)
     
-      체계적인 디버깅
-      디버깅이 선택되어 질 때가 있다. (전체 시스템이 함께 연결되거나, 배포 후에 사용자 보고)
-      버그가 현지화가 불가능 할때에는 디버깅이 좋은 전략이 될 수도 있다.
-    
+  
+  
+    이런 코드를 하일스톤(우박) 코드… 왜? → 왔다갔다 하니깐….
   
 
 
-Reproduce the Bug
+Type
 
 
-  고장을 야기하는 테스트케이스를 반복해서 시도한다.
-  regression tesing을 통해 버그를 찾는데 성공 했다면, 운이 좋은편
-  사용자가 버그를 제보 했다면 이에 반해 약간의 노력이 필요하다.
-  하지만 이 환경이 그래픽 사용 인터페이스 또는 멀티 스레드 환경이라면 버그를 찾는 것은 더 어려워진다.
-  물론 작은 테스트 케이스를 만들어 반복적으로 실행하는 것은 도움이 된다.
-  반복해서 실행 하고 버그를 찾...</summary>
+  타입 → 값의 집합
+  Primitive Types (원시 타입) (int, long, boolean…)
+  Object Type (객체 타입) (String, Bin...</summary>
 
   </entry>
 
   
   <entry>
-    <title>Abstraction functions &amp; rep invariants</title>
-    <link href="http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Abstraction-Functions-&amp;-Rep-Invariants/" rel="alternate" type="text/html" title="Abstraction functions &amp;amp; rep invariants" />
+    <title>Specifications</title>
+    <link href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Specifications/" rel="alternate" type="text/html" title="Specifications" />
     <published>2024-12-15T15:10:00+09:00</published>
   
     <updated>2024-12-15T15:10:00+09:00</updated>
   
-    <id>http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Abstraction-Functions-&amp;-Rep-Invariants/</id>
-    <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Abstraction-Functions-&amp;-Rep-Invariants/" />
+    <id>http://localhost:4000/learninghub/study/mit6.005-software%20construction/Specifications/</id>
+    <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Specifications/" />
     <author>
       <name>김규형</name>
     </author>
@@ -181,42 +184,50 @@ Reproduce the Bug
     
     <category term="Study" />
     
-    <category term="MIT6.005- Software Construction" />
+    <category term="MIT6.005-Software Construction" />
     
   
 
-  <summary>Objectives
+  <summary>**Specifications란 무엇인가?**
 
 
-  Invariants
-  representation exposure
-  abstraction functions
+  심각한 버그는 인터페이스의 동작에 대한 오해에서 나타난다.
+  정확한 명세를 활용해 비난을 사람이 아닌 코드로 옮겨야한다.
   
-    representation Invariants
-  
-  추상화 함수 그리고 Invariants(상수)의 개념을 통해 class에 ADT를 구현하는것이 무엇을 의미하는지에 대해 공부한다.
-  이러한 수학적 개념은 소프트웨어 디자인에 있어 매우 실용적이다.
-  추상함수는 데이터 유형에 따른 equality를 정의하는 방법을 제공한다.
-  rep invariant는 데이터 구조로 인해 발생되는 버그를 더 쉽게 찾을 수 있게 제공한다.
+    BigIntefer에 대한 명세와 코드
 
+      /*
+   * 명세
+   */
+    
+  public BigInteger add(BigInteger val)
+    
+  Returns a BigInteger whose value is (this + val).
+    
+  Parameters: 
+  val - value to be added to this BigInteger.
+    
+  Returns: 
+  this + val
+    
 
-Invariants
-
-
-  좋은 ADT를 만드는것에 대한 논의에 대해서 가장 중요한 속성은 그 자체로 불변성을 보존하는 것이다...</summary>
+      /*
+   * 실제 코드 
+   */
+  if (val.sign...</summary>
 
   </entry>
 
   
   <entry>
-    <title>Abstract data types(23.10.04)</title>
-    <link href="http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Abstract-Data-Types(23.10.04)/" rel="alternate" type="text/html" title="Abstract data types(23.10.04)" />
+    <title>Recursive data types</title>
+    <link href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Recursive-Data-Types/" rel="alternate" type="text/html" title="Recursive data types" />
     <published>2024-12-15T15:10:00+09:00</published>
   
     <updated>2024-12-15T15:10:00+09:00</updated>
   
-    <id>http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Abstract-Data-Types(23.10.04)/</id>
-    <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Abstract-Data-Types(23.10.04)/" />
+    <id>http://localhost:4000/learninghub/study/mit6.005-software%20construction/Recursive-Data-Types/</id>
+    <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Recursive-Data-Types/" />
     <author>
       <name>김규형</name>
     </author>
@@ -225,29 +236,28 @@ Invariants
     
     <category term="Study" />
     
-    <category term="MIT6.005- Software Construction" />
+    <category term="MIT6.005-Software Construction" />
     
   
 
-  <summary>Objects
+  <summary>Recursive functions
+
+재귀적 함수가 자기 자신의 관점에 따라 정의되는 것과 같이 재귀적 자료형 또한 자기 관점에서 정의된다.
+
+Immutable lists
 
 
-  추상 자료형
-  표현 독립성
-  추상 데이터 유형의 위험한 문제를 해결하고, 클라이언트가 내부 표현에 대한 가정이 왜 위험하고, 어떻게 그것을 피할 수 있는가?
-  연산의 분류와 추상적인 데이터 유형에 대한 좋은 설계 원리를 세우는법
-
-
-What Abstraction Means
-
-
-  추상화 데이터 유형은 소프트웨어 공학의 일반적인 원리 중 하나
-  다양한 의미로 이야기 되어진다.
+  immutable list 인 ImList&amp;amp;lt;E&amp;amp;gt; 이것이 4가지의 작동을 한다고 생각
     
-      추상화 : 낮은 정보를 숨기고 더 단순하게 표현
-      모듈화 : 시스템을 모듈로 나누고, 각 구성 요소에 설계, 구현 등의 기능을 추가
-      캡슐화 : 모듈 주위에 벽을 만들어 모듈 내부가 각자 스스로에게 책임을 부여, 다른 부분의 무결성 보장
-      정보 숨김 : 모듈...</summary>
+      empty: void → ImList
+      cons: E × ImList → ImList
+      first: ImList → E
+      rest: ImList → ImList
+    
+  
+  위 규칙들은 List 나 Scheme 의 기본적인 요소로 현재에서도 함수적 프로그래밍에 있어 널리 사용됨
+  
+    이 데이터 유형을 구현하기 위해 Java 클래스를 비트 연사자를 사용한다면 아래와 같은 의미를...</summary>
 
   </entry>
 

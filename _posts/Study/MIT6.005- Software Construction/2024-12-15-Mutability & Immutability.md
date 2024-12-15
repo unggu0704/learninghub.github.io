@@ -40,7 +40,7 @@ render_with_liquid: true
     - 하지만 `StringBuiler` 는 다르다.
     - 하나의 sb 객체에 값을 직접 수정하는 식으로 변경한다.
         
-        ![mutation.png]({{ site.baseurl }}{{ page.url }}/image/mutation.png)
+![mutation.png]({{ site.baseurl }}{{ page.url }}/image/mutation.png)
         
 
 ```java

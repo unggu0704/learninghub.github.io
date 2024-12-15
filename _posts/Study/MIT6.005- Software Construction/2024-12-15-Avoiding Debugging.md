@@ -1,4 +1,10 @@
-# Avoiding Debugging(23.09.25)
+---
+author: 김규형
+date: 2024-12-15 14:10:00 +0800
+categories: [Study, MIT6.005-Software Construction]
+tags: [sw-engineering, SW공학]
+render_with_liquid: true
+---
 
 ## ****First Defense: Make Bugs Impossible****
 

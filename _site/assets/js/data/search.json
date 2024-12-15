@@ -1,11 +1,11 @@
 [
   
   {
-    "title": "Ubuntu에러",
+    "title": "Ubuntu runner가 업그레이드 됨",
     "url": "/posts/Ubuntu%EC%97%90%EB%9F%AC/",
-    "categories": "",
-    "tags": "",
-    "date": "2024-12-15 00:00:00 +0900",
+    "categories": "Tech, Github Blog",
+    "tags": "writing",
+    "date": "2024-12-14 18:10:00 +0900",
     
 
 
@@ -13,8 +13,8 @@
 
 
     
-    "snippet": "09. Ubuntu runner가 업그레이드 됨Github의 Runner서버 중 (*Ubuntu-24-04-64x)* 가 기존의 Action에 맞지 않다고 에러가 발생내 위치 기준 상대경로기존의 Workflow 설정(Asis)jobs:  # Build job  build:    runs-on: ubuntu-latest  ubuntu-latest를 설정...",
-    "content": "09. Ubuntu runner가 업그레이드 됨Github의 Runner서버 중 (*Ubuntu-24-04-64x)* 가 기존의 Action에 맞지 않다고 에러가 발생내 위치 기준 상대경로기존의 Workflow 설정(Asis)jobs:  # Build job  build:    runs-on: ubuntu-latest  ubuntu-latest를 설정하고 있음          2024년 1월 부터 *Ubuntu-24-04-64x)* 가 Ubuntu Runner 서버로 설정된다고 안내      https://github.com/actions/runner-images/issues/10636        현재 jekyll는 *Ubuntu-22-04-64x)* 에 맞춰져 있기에 해당 에러가 발생  더이상 *Ubuntu-22-04-64x)* 는 최신 버전이 아니기에… lastes가 아닌 명시적 작성Ubuntu 버전을 명확히 yml에 작성jobs:  # Build job  build:    runs-on: ubuntu-22.04정상적으로 Action Job들이 완료되었다."
+    "snippet": "09. Ubuntu runner가 업그레이드 됨Github의 Runner서버 중 (*Ubuntu-24-04-64x)* 가 기존의 Action에 맞지 않다고 에러가 발생기존의 Workflow 설정(Asis)jobs:  # Build job  build:    runs-on: ubuntu-latest  ubuntu-latest를 설정하고 있음       ...",
+    "content": "09. Ubuntu runner가 업그레이드 됨Github의 Runner서버 중 (*Ubuntu-24-04-64x)* 가 기존의 Action에 맞지 않다고 에러가 발생기존의 Workflow 설정(Asis)jobs:  # Build job  build:    runs-on: ubuntu-latest  ubuntu-latest를 설정하고 있음          2024년 1월 부터 *Ubuntu-24-04-64x)* 가 Ubuntu Runner 서버로 설정된다고 안내      https://github.com/actions/runner-images/issues/10636        현재 jekyll는 *Ubuntu-22-04-64x)* 에 맞춰져 있기에 해당 에러가 발생  더이상 *Ubuntu-22-04-64x)* 는 최신 버전이 아니기에… lastes가 아닌 명시적 작성Ubuntu 버전을 명확히 yml에 작성jobs:  # Build job  build:    runs-on: ubuntu-22.04정상적으로 Action Job들이 완료되었다."
   },
   
   {
@@ -47,8 +47,8 @@
 
 
     
-    "snippet": "테스트글입test_상대url새로운 변경이슈이미지",
-    "content": "테스트글입test_상대url새로운 변경이슈이미지"
+    "snippet": "테스트글입test_상대url상대경로새로운 변경이슈이미지",
+    "content": "테스트글입test_상대url상대경로새로운 변경이슈이미지"
   }
   
 ]

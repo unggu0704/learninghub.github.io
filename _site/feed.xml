@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Unggu</title>
   <subtitle>엉구</subtitle>
-  <updated>2024-12-15T18:35:34+09:00</updated>
+  <updated>2024-12-15T18:45:19+09:00</updated>
   <author>
     <name>김규형</name>
     <uri>http://localhost:4000/</uri>
@@ -40,7 +40,7 @@
 
 Github의 Runner서버 중 (*Ubuntu-24-04-64x)* 가 기존의 Action에 맞지 않다고 에러가 발생
 
-
+내 위치 기준 상대경로
 
 기존의 Workflow 설정(Asis)
 
@@ -57,7 +57,7 @@ jobs:
       https://github.com/actions/runner-images/issues/10636
     
   
-  현재 jekyll는 *Ubuntu-22-04-64x)* 에 맞춰져 있기에 해당 에러가 발...</summary>
+  현재 jekyll는 *Ubuntu-22-04-64x)* 에 맞춰져 ...</summary>
 
   </entry>
 

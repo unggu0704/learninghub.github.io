@@ -31,18 +31,19 @@
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.4" />
 <meta property="og:title" content="Mutability &amp; immutability" />
+<meta name="author" content="김규형" />
 <meta property="og:locale" content="ko_KR" />
-<meta name="description" content="Mutability &amp; Immutability(23.09.26)" />
-<meta property="og:description" content="Mutability &amp; Immutability(23.09.26)" />
-<link rel="canonical" href="http://localhost:4000/learninghub/Mutability-&-Immutability/" />
-<meta property="og:url" content="http://localhost:4000/learninghub/Mutability-&-Immutability/" />
+<meta name="description" content="Object" />
+<meta property="og:description" content="Object" />
+<link rel="canonical" href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Mutability-&-Immutability/" />
+<meta property="og:url" content="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Mutability-&-Immutability/" />
 <meta property="og:site_name" content="Unggu" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-12-15T00:00:00+09:00" />
+<meta property="article:published_time" content="2024-12-15T15:10:00+09:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Mutability &amp; immutability" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-12-15T00:00:00+09:00","datePublished":"2024-12-15T00:00:00+09:00","description":"Mutability &amp; Immutability(23.09.26)","headline":"Mutability &amp; immutability","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/learninghub/Mutability-&-Immutability/"},"url":"http://localhost:4000/learninghub/Mutability-&-Immutability/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"김규형"},"dateModified":"2024-12-15T15:10:00+09:00","datePublished":"2024-12-15T15:10:00+09:00","description":"Object","headline":"Mutability &amp; immutability","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/learninghub/study/mit6.005-software%20construction/Mutability-&-Immutability/"},"url":"http://localhost:4000/learninghub/study/mit6.005-software%20construction/Mutability-&-Immutability/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -425,6 +426,10 @@
               <a href="/learninghub/">홈</a>
             </span>
 
+          
+        
+          
+        
           
         
           
@@ -1008,7 +1013,7 @@
 
 <time
   
-  data-ts="1734188400"
+  data-ts="1734243000"
   data-df="YYYY/MM/DD"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -1033,7 +1038,10 @@
 
           <em>
             
-              <a href="https://twitter.com/username">김규형</a>
+              
+                
+                
+              
             
           </em>
         </span>
@@ -1063,7 +1071,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="4602 단어"
+  title="4599 단어"
 >
   <em>25 분</em>읽는 시간</span>
 
@@ -1097,9 +1105,7 @@
   
 
   <div class="content">
-    <h1 id="mutability--immutability230926">Mutability &amp; Immutability(23.09.26)</h1>
-
-<h3 id="object"><span class="me-2">Object</span><a href="#object" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+    <h3 id="object"><span class="me-2">Object</span><a href="#object" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
 <ul>
   <li>가변 객체와 가변성에 대해 이핸다.</li>
@@ -1123,16 +1129,13 @@
 </pre></td><td class="rouge-code"><pre>  <span class="nc">String</span> <span class="n">s</span> <span class="o">=</span> <span class="s">"a"</span><span class="o">;</span>
   <span class="n">s</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="na">concat</span><span class="o">(</span><span class="s">"b"</span><span class="o">);</span> <span class="c1">// s+="b" and s=s+"b" also mean the same thing</span>
 </pre></td></tr></tbody></table></code></div>    </div>
-
     <ul>
       <li>s 라는 String 객체는 언제나 “a” 만을 담고 있다.</li>
       <li>하지만 <code class="language-plaintext highlighter-rouge">concat</code> 을 통해 이어 붙일 시에 새로운 ab라는 객체를 만들어 저장한다.</li>
-      <li>
-        <p>s가 가르키는 주소가 변경되는 형태</p>
-
-        <p><a href="https://unggu0704.github.io/learninghub/image/reassignment.png" class="popup img-link  shimmer"><img src="https://unggu0704.github.io/learninghub/image/reassignment.png" alt="reassignment.png" loading="lazy"></a></p>
-      </li>
+      <li>s가 가르키는 주소가 변경되는 형태</li>
     </ul>
+
+    <p><a href="/learninghub/study/mit6.005-software%20construction/Mutability-&amp;-Immutability//image/reassignment.png" class="popup img-link  shimmer"><img src="/learninghub/study/mit6.005-software%20construction/Mutability-&amp;-Immutability//image/reassignment.png" alt="reassignment.png" loading="lazy"></a></p>
   </li>
   <li>
     <p><code class="language-plaintext highlighter-rouge">StringBuilder</code> 는 가변 타입의 예시이다. 문자열을 일부 삭제, 삽입등을 방법을 가지고 있다.</p>
@@ -1150,7 +1153,7 @@
       <li>
         <p>하나의 sb 객체에 값을 직접 수정하는 식으로 변경한다.</p>
 
-        <p><a href="https://unggu0704.github.io/learninghub/image/mutation.png" class="popup img-link  shimmer"><img src="https://unggu0704.github.io/learninghub/image/mutation.png" alt="mutation.png" loading="lazy"></a></p>
+        <p><a href="/learninghub/study/mit6.005-software%20construction/Mutability-&amp;-Immutability//image/mutation.png" class="popup img-link  shimmer"><img src="/learninghub/study/mit6.005-software%20construction/Mutability-&amp;-Immutability//image/mutation.png" alt="mutation.png" loading="lazy"></a></p>
       </li>
     </ul>
   </li>
@@ -1175,7 +1178,7 @@
   <li>하지만 값의 변경이 이루어질 때 <code class="language-plaintext highlighter-rouge">t</code> 는 새로운 객체인 <strong>abc</strong> 를 생성해서 가르키지만, <code class="language-plaintext highlighter-rouge">tb</code> 는 <code class="language-plaintext highlighter-rouge">sb</code> 와 함께 가르키는 객체를 수정해 <code class="language-plaintext highlighter-rouge">sb</code> 또한 같이 값이 변경된다.</li>
 </ul>
 
-<p><a href="https://unggu0704.github.io/learninghub/image/string-vs-stringbuilder.png" class="popup img-link  shimmer"><img src="https://unggu0704.github.io/learninghub/image/string-vs-stringbuilder.png" alt="string-vs-stringbuilder.png" loading="lazy"></a></p>
+<p><a href="https://unggu0704.github.io/image/string-vs-stringbuilder.png" class="popup img-link  shimmer"><img src="https://unggu0704.github.io/image/string-vs-stringbuilder.png" alt="string-vs-stringbuilder.png" loading="lazy"></a></p>
 
 <ul>
   <li>
@@ -1792,7 +1795,7 @@
   <li>
     <p>이 문제에 대한 스냅샷 다이어그램</p>
 
-    <p><a href="https://unggu0704.github.io/learninghub/image/iterator.png" class="popup img-link  shimmer"><img src="https://unggu0704.github.io/learninghub/image/iterator.png" alt="스크린샷 2023-09-26 오후 4.04.33.png" loading="lazy"></a></p>
+    <p><a href="https://unggu0704.github.io/image/iterator.png" class="popup img-link  shimmer"><img src="https://unggu0704.github.io/image/iterator.png" alt="스크린샷 2023-09-26 오후 4.04.33.png" loading="lazy"></a></p>
   </li>
 </ul>
 
@@ -2058,8 +2061,30 @@
   <div class="post-tail-wrapper text-muted">
     <!-- categories -->
     
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/learninghub/categories/study/">Study</a>,
+          <a href="/learninghub/categories/mit6-005-software-construction/">MIT6.005-Software Construction</a>
+      </div>
+    
 
     <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/learninghub/tags/sw-engineering/"
+            class="post-tag no-text-decoration"
+          >sw-engineering</a>
+        
+          <a
+            href="/learninghub/tags/sw%EA%B3%B5%ED%95%99/"
+            class="post-tag no-text-decoration"
+          >SW공학</a>
+        
+      </div>
     
 
     <div
@@ -2093,21 +2118,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Mutability%20&%20immutability%20-%20Unggu&url=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2FMutability-%26-Immutability%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Mutability%20&%20immutability%20-%20Unggu&url=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2Fstudy%2Fmit6.005-software%2520construction%2FMutability-%26-Immutability%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Mutability%20&%20immutability%20-%20Unggu&u=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2FMutability-%26-Immutability%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Mutability%20&%20immutability%20-%20Unggu&u=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2Fstudy%2Fmit6.005-software%2520construction%2FMutability-%26-Immutability%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2FMutability-%26-Immutability%2F&text=Mutability%20&%20immutability%20-%20Unggu" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2Fstudy%2Fmit6.005-software%2520construction%2FMutability-%26-Immutability%2F&text=Mutability%20&%20immutability%20-%20Unggu" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -2162,14 +2187,21 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/learninghub/tech/jekyll-blog/Ubuntu%EC%97%90%EB%9F%AC/">Ubuntu runner가 업그레이드 됨</a>
+          <a href="/learninghub/education/nhn%20academy/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B8%80%EC%9E%85%EB%8B%88%EB%8B%A4/">내맘대로 제목</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/learninghub/education/nhn%20academy/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B8%80%EC%9E%85%EB%8B%88%EB%8B%A4/">내맘대로 제목</a>
+          <a href="/learninghub/tech/jekyll-blog/Jekyll-%EB%A1%9C%EC%BB%AC-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95/">Jekyll 로컬환경 구축하기</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/learninghub/tech/jekyll-blog/Ubuntu%EC%97%90%EB%9F%AC/">Ubuntu runner가 업그레이드 됨</a>
         </li>
       
         
@@ -2184,13 +2216,6 @@
         
         <li class="text-truncate lh-lg">
           <a href="/learninghub/study/mit6.005-%20software%20construction/Abstraction-Functions-&-Rep-Invariants/">Abstraction functions & rep invariants</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/learninghub/study/mit6.005-%20software%20construction/Vison-Control/">Vison control</a>
         </li>
       
     </ul>
@@ -2219,10 +2244,16 @@
     
     
     
+      
+        
+        
+
   
     
     
     
+    
+      
     
   
     
@@ -2238,16 +2269,10 @@
     
     
     
-      
-        
-        
-
   
     
     
     
-    
-      
     
   
     
@@ -2265,13 +2290,13 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/writing/">writing</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw-engineering/">sw-engineering</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw%EA%B3%B5%ED%95%99/">SW공학</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/writing/">writing</a>
       
     </div>
   </section>
@@ -2328,6 +2353,57 @@
 
 
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 
 
@@ -2337,6 +2413,133 @@
 
 
 
+
+
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">관련된 글</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/learninghub/study/mit6.005-%20software%20construction/Vison-Control/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1734243000"
+  data-df="YYYY/MM/DD"
+  
+>
+  2024/12/15
+</time>
+
+              <h4 class="pt-0 my-2">Vison control</h4>
+              <div class="text-muted">
+                <p>Objectives
+
+
+  version control이 무엇이고 왜 사용하는지 파악합니다.
+  어떻게 git이 version history를 그래프로 저장하는지 이해합니다.
+  version history를 사용하고 읽고 만드는것을 연습합니다.
+
+
+Introduction
+
+
+  Version control 시스템은 소프트웨어 공학에선 필수적인 도구입...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/learninghub/study/mit6.005-%20software%20construction/Debugguing/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1734243000"
+  data-df="YYYY/MM/DD"
+  
+>
+  2024/12/15
+</time>
+
+              <h4 class="pt-0 my-2">Debugguing</h4>
+              <div class="text-muted">
+                <p>Objects
+    
+      체계적인 디버깅
+      디버깅이 선택되어 질 때가 있다. (전체 시스템이 함께 연결되거나, 배포 후에 사용자 보고)
+      버그가 현지화가 불가능 할때에는 디버깅이 좋은 전략이 될 수도 있다.
+    
+  
+
+
+Reproduce the Bug
+
+
+  고장을 야기하는 테스트케이스를 반복해서 시도한다.
+  regr...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/learninghub/study/mit6.005-%20software%20construction/Abstraction-Functions-&-Rep-Invariants/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1734243000"
+  data-df="YYYY/MM/DD"
+  
+>
+  2024/12/15
+</time>
+
+              <h4 class="pt-0 my-2">Abstraction functions & rep invariants</h4>
+              <div class="text-muted">
+                <p>Objectives
+
+
+  Invariants
+  representation exposure
+  abstraction functions
+  
+    representation Invariants
+  
+  추상화 함수 그리고 Invariants(상수)의 개념을 통해 class에 ADT를 구현하는것이 무엇을 의미하는지에 대해 공부한다.
+  이러한 수학적 ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
 
 
             
@@ -2349,21 +2552,21 @@
 
   
     <a
-      href="/learninghub/Interface/"
+      href="/learninghub/study/mit6.005-%20software%20construction/Debugguing/"
       class="btn btn-outline-primary"
       aria-label="이전 글"
     >
-      <p>Interface</p>
+      <p>Debugguing</p>
     </a>
   
 
   
     <a
-      href="/learninghub/Recursion/"
+      href="/learninghub/study/mit6.005-%20software%20construction/Vison-Control/"
       class="btn btn-outline-primary"
       aria-label="다음 글"
     >
-      <p>Recursion</p>
+      <p>Vison control</p>
     </a>
   
 </nav>
@@ -2435,10 +2638,16 @@
     
     
     
+      
+        
+        
+
   
     
     
     
+    
+      
     
   
     
@@ -2454,16 +2663,10 @@
     
     
     
-      
-        
-        
-
   
     
     
     
-    
-      
     
   
     
@@ -2481,13 +2684,13 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/writing/">writing</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw-engineering/">sw-engineering</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw%EA%B3%B5%ED%95%99/">SW공학</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/writing/">writing</a>
       
     </div>
   </section>

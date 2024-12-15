@@ -1,4 +1,10 @@
-# Mutability & Immutability(23.09.26)
+---
+author: 김규형
+date: 2024-12-15 14:10:00 +0800
+categories: [Study, MIT6.005-Software Construction]
+tags: [sw-engineering, SW공학]
+render_with_liquid: true
+---
 
 ### Object
 
@@ -17,12 +23,12 @@
     String s = "a";
     s = s.concat("b"); // s+="b" and s=s+"b" also mean the same thing
     ```
-    
     - s 라는 String 객체는 언제나 “a” 만을 담고 있다.
     - 하지만 `concat` 을 통해 이어 붙일 시에 새로운 ab라는 객체를 만들어 저장한다.
     - s가 가르키는 주소가 변경되는 형태
         
-        ![reassignment.png](image/reassignment.png)
+    ![reassignment.png]({{ site.baseurl }}{{ page.url }}/image/reassignment.png)
+    
         
 - `StringBuilder` 는 가변 타입의 예시이다. 문자열을 일부 삭제, 삽입등을 방법을 가지고 있다.
     
@@ -34,7 +40,7 @@
     - 하지만 `StringBuiler` 는 다르다.
     - 하나의 sb 객체에 값을 직접 수정하는 식으로 변경한다.
         
-        ![mutation.png](image/mutation.png)
+        ![mutation.png]({{ site.baseurl }}{{ page.url }}/image/mutation.png)
         
 
 ```java

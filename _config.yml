@@ -95,7 +95,7 @@ theme_mode: dark
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: "https://unggu0704.github.io/learninghub"
+cdn: "https://unggu0704.github.io"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "https://www.shutterstock.com/image-photo/odeng-fish-cake-soup-korean-260nw-2482904725.jpg"

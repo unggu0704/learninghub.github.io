@@ -31,18 +31,19 @@
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.4" />
 <meta property="og:title" content="Debugguing" />
+<meta name="author" content="김규형" />
 <meta property="og:locale" content="ko_KR" />
-<meta name="description" content="Debugguing(23.10.02)" />
-<meta property="og:description" content="Debugguing(23.10.02)" />
-<link rel="canonical" href="http://localhost:4000/learninghub/Debugguing/" />
-<meta property="og:url" content="http://localhost:4000/learninghub/Debugguing/" />
+<meta name="description" content="Objects 체계적인 디버깅 디버깅이 선택되어 질 때가 있다. (전체 시스템이 함께 연결되거나, 배포 후에 사용자 보고) 버그가 현지화가 불가능 할때에는 디버깅이 좋은 전략이 될 수도 있다." />
+<meta property="og:description" content="Objects 체계적인 디버깅 디버깅이 선택되어 질 때가 있다. (전체 시스템이 함께 연결되거나, 배포 후에 사용자 보고) 버그가 현지화가 불가능 할때에는 디버깅이 좋은 전략이 될 수도 있다." />
+<link rel="canonical" href="http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Debugguing/" />
+<meta property="og:url" content="http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Debugguing/" />
 <meta property="og:site_name" content="Unggu" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-12-15T00:00:00+09:00" />
+<meta property="article:published_time" content="2024-12-15T15:10:00+09:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Debugguing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-12-15T00:00:00+09:00","datePublished":"2024-12-15T00:00:00+09:00","description":"Debugguing(23.10.02)","headline":"Debugguing","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/learninghub/Debugguing/"},"url":"http://localhost:4000/learninghub/Debugguing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"김규형"},"dateModified":"2024-12-15T15:10:00+09:00","datePublished":"2024-12-15T15:10:00+09:00","description":"Objects 체계적인 디버깅 디버깅이 선택되어 질 때가 있다. (전체 시스템이 함께 연결되거나, 배포 후에 사용자 보고) 버그가 현지화가 불가능 할때에는 디버깅이 좋은 전략이 될 수도 있다.","headline":"Debugguing","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Debugguing/"},"url":"http://localhost:4000/learninghub/study/mit6.005-%20software%20construction/Debugguing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -428,6 +429,10 @@
           
         
           
+        
+          
+        
+          
             
               <span>Debugguing</span>
             
@@ -742,7 +747,7 @@
 
 <time
   
-  data-ts="1734188400"
+  data-ts="1734243000"
   data-df="YYYY/MM/DD"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -767,7 +772,10 @@
 
           <em>
             
-              <a href="https://twitter.com/username">김규형</a>
+              
+                
+                
+              
             
           </em>
         </span>
@@ -797,7 +805,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="2131 단어"
+  title="2130 단어"
 >
   <em>11 분</em>읽는 시간</span>
 
@@ -831,9 +839,7 @@
   
 
   <div class="content">
-    <h1 id="debugguing231002">Debugguing(23.10.02)</h1>
-
-<ul>
+    <ul>
   <li>Objects
     <ul>
       <li>체계적인 디버깅</li>
@@ -1088,8 +1094,30 @@
   <div class="post-tail-wrapper text-muted">
     <!-- categories -->
     
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/learninghub/categories/study/">Study</a>,
+          <a href="/learninghub/categories/mit6-005-software-construction/">MIT6.005- Software Construction</a>
+      </div>
+    
 
     <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/learninghub/tags/sw-engineering/"
+            class="post-tag no-text-decoration"
+          >sw-engineering</a>
+        
+          <a
+            href="/learninghub/tags/sw%EA%B3%B5%ED%95%99/"
+            class="post-tag no-text-decoration"
+          >SW공학</a>
+        
+      </div>
     
 
     <div
@@ -1123,21 +1151,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Debugguing%20-%20Unggu&url=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2FDebugguing%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Debugguing%20-%20Unggu&url=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2Fstudy%2Fmit6.005-%2520software%2520construction%2FDebugguing%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Debugguing%20-%20Unggu&u=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2FDebugguing%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Debugguing%20-%20Unggu&u=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2Fstudy%2Fmit6.005-%2520software%2520construction%2FDebugguing%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2FDebugguing%2F&text=Debugguing%20-%20Unggu" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Flearninghub%2Fstudy%2Fmit6.005-%2520software%2520construction%2FDebugguing%2F&text=Debugguing%20-%20Unggu" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1192,14 +1220,21 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/learninghub/tech/jekyll-blog/Ubuntu%EC%97%90%EB%9F%AC/">Ubuntu runner가 업그레이드 됨</a>
+          <a href="/learninghub/education/nhn%20academy/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B8%80%EC%9E%85%EB%8B%88%EB%8B%A4/">내맘대로 제목</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/learninghub/education/nhn%20academy/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B8%80%EC%9E%85%EB%8B%88%EB%8B%A4/">내맘대로 제목</a>
+          <a href="/learninghub/tech/jekyll-blog/Jekyll-%EB%A1%9C%EC%BB%AC-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95/">Jekyll 로컬환경 구축하기</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/learninghub/tech/jekyll-blog/Ubuntu%EC%97%90%EB%9F%AC/">Ubuntu runner가 업그레이드 됨</a>
         </li>
       
         
@@ -1214,13 +1249,6 @@
         
         <li class="text-truncate lh-lg">
           <a href="/learninghub/study/mit6.005-%20software%20construction/Abstraction-Functions-&-Rep-Invariants/">Abstraction functions & rep invariants</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/learninghub/study/mit6.005-%20software%20construction/Vison-Control/">Vison control</a>
         </li>
       
     </ul>
@@ -1249,10 +1277,16 @@
     
     
     
+      
+        
+        
+
   
     
     
     
+    
+      
     
   
     
@@ -1268,16 +1302,10 @@
     
     
     
-      
-        
-        
-
   
     
     
     
-    
-      
     
   
     
@@ -1295,13 +1323,13 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/writing/">writing</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw-engineering/">sw-engineering</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw%EA%B3%B5%ED%95%99/">SW공학</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/writing/">writing</a>
       
     </div>
   </section>
@@ -1358,6 +1386,57 @@
 
 
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 
 
@@ -1367,6 +1446,132 @@
 
 
 
+
+
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">관련된 글</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/learninghub/study/mit6.005-%20software%20construction/Vison-Control/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1734243000"
+  data-df="YYYY/MM/DD"
+  
+>
+  2024/12/15
+</time>
+
+              <h4 class="pt-0 my-2">Vison control</h4>
+              <div class="text-muted">
+                <p>Objectives
+
+
+  version control이 무엇이고 왜 사용하는지 파악합니다.
+  어떻게 git이 version history를 그래프로 저장하는지 이해합니다.
+  version history를 사용하고 읽고 만드는것을 연습합니다.
+
+
+Introduction
+
+
+  Version control 시스템은 소프트웨어 공학에선 필수적인 도구입...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/learninghub/study/mit6.005-%20software%20construction/Abstraction-Functions-&-Rep-Invariants/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1734243000"
+  data-df="YYYY/MM/DD"
+  
+>
+  2024/12/15
+</time>
+
+              <h4 class="pt-0 my-2">Abstraction functions & rep invariants</h4>
+              <div class="text-muted">
+                <p>Objectives
+
+
+  Invariants
+  representation exposure
+  abstraction functions
+  
+    representation Invariants
+  
+  추상화 함수 그리고 Invariants(상수)의 개념을 통해 class에 ADT를 구현하는것이 무엇을 의미하는지에 대해 공부한다.
+  이러한 수학적 ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/learninghub/study/mit6.005-%20software%20construction/Abstract-Data-Types(23.10.04)/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1734243000"
+  data-df="YYYY/MM/DD"
+  
+>
+  2024/12/15
+</time>
+
+              <h4 class="pt-0 my-2">Abstract data types(23.10.04)</h4>
+              <div class="text-muted">
+                <p>Objects
+
+
+  추상 자료형
+  표현 독립성
+  추상 데이터 유형의 위험한 문제를 해결하고, 클라이언트가 내부 표현에 대한 가정이 왜 위험하고, 어떻게 그것을 피할 수 있는가?
+  연산의 분류와 추상적인 데이터 유형에 대한 좋은 설계 원리를 세우는법
+
+
+What Abstraction Means
+
+
+  추상화 데이터 유형은 소프트웨어 공학의 일반적...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
 
 
             
@@ -1379,21 +1584,21 @@
 
   
     <a
-      href="/learninghub/Code-Review/"
+      href="/learninghub/study/mit6.005-%20software%20construction/Abstraction-Functions-&-Rep-Invariants/"
       class="btn btn-outline-primary"
       aria-label="이전 글"
     >
-      <p>Code review</p>
+      <p>Abstraction functions & rep invariants</p>
     </a>
   
 
   
     <a
-      href="/learninghub/Designing-Specifications/"
+      href="/learninghub/study/mit6.005-software%20construction/Mutability-&-Immutability/"
       class="btn btn-outline-primary"
       aria-label="다음 글"
     >
-      <p>Designing specifications</p>
+      <p>Mutability & immutability</p>
     </a>
   
 </nav>
@@ -1465,10 +1670,16 @@
     
     
     
+      
+        
+        
+
   
     
     
     
+    
+      
     
   
     
@@ -1484,16 +1695,10 @@
     
     
     
-      
-        
-        
-
   
     
     
     
-    
-      
     
   
     
@@ -1511,13 +1716,13 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/writing/">writing</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw-engineering/">sw-engineering</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw%EA%B3%B5%ED%95%99/">SW공학</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/writing/">writing</a>
       
     </div>
   </section>

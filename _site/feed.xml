@@ -4,7 +4,7 @@
   <id>http://localhost:4000/learninghub/</id>
   <title>Unggu</title>
   <subtitle>엉구</subtitle>
-  <updated>2024-12-16T00:51:20+09:00</updated>
+  <updated>2024-12-16T01:02:30+09:00</updated>
   <author>
     <name>김규형</name>
     <uri>http://localhost:4000/learninghub/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Vison-Control/" rel="alternate" type="text/html" title="Vison control" />
     <published>2024-12-15T15:10:00+09:00</published>
   
-    <updated>2024-12-15T22:55:32+09:00</updated>
+    <updated>2024-12-16T00:57:58+09:00</updated>
   
     <id>http://localhost:4000/learninghub/study/mit6.005-software%20construction/Vison-Control/</id>
     <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Vison-Control/" />
@@ -172,7 +172,7 @@ Type
     <link href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Specifications/" rel="alternate" type="text/html" title="Specifications" />
     <published>2024-12-15T15:10:00+09:00</published>
   
-    <updated>2024-12-15T22:55:32+09:00</updated>
+    <updated>2024-12-16T00:57:58+09:00</updated>
   
     <id>http://localhost:4000/learninghub/study/mit6.005-software%20construction/Specifications/</id>
     <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Specifications/" />
@@ -224,7 +224,7 @@ Type
     <link href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Recursive-Data-Types/" rel="alternate" type="text/html" title="Recursive data types" />
     <published>2024-12-15T15:10:00+09:00</published>
   
-    <updated>2024-12-15T22:55:32+09:00</updated>
+    <updated>2024-12-16T00:57:58+09:00</updated>
   
     <id>http://localhost:4000/learninghub/study/mit6.005-software%20construction/Recursive-Data-Types/</id>
     <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Recursive-Data-Types/" />

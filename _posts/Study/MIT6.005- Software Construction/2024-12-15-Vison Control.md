@@ -8,13 +8,13 @@ render_with_liquid: true
 
 ### Objectives
 
-- version control이 무엇이고 왜 사용하는지 파악합니다.
-- 어떻게 git이 version history를 그래프로 저장하는지 이해합니다.
-- version history를 사용하고 읽고 만드는것을 연습합니다.
+- version control이 무엇이고 왜 사용하는지 파악하기
+- 어떻게 git이 version history를 그래프로 저장하는지 이해
+- version history를 사용하고 읽고 만드는것을 연습
 
 ## Introduction
 
-- Version control 시스템은 소프트웨어 공학에선 필수적인 도구입니다. 대부분의 오픈, 취미 등등에서 사용합니다.
+- Version control 시스템은 소프트웨어 공학에선 필수적인 도구입니다. 대부분의 오픈, 취미 등등에서 사용.
 - version control 없이 팀원의 모든 코드를 조절하는 것은 매우 어렵다.
 
 ### version control 없는 버전 제어

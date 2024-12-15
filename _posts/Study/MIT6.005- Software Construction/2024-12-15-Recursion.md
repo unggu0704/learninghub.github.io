@@ -121,7 +121,7 @@ render_with_liquid: true
     ```
     
 
-## ****Structure of Recursive Implementations****
+## Structure of Recursive Implementations
 
 - **Base case** : 더 이상 분해 할 수 없는 경우 빈 문자열, 빈 리스트, 빈 트리, 0 등등…
 - **recursive step** : 분해할 수 있는 것 작게 분해 후 재결합하여 문제를 해결하는 단계

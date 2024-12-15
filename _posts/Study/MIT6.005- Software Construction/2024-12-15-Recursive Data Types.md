@@ -61,9 +61,9 @@ render_with_liquid: true
     }
     ```
     
-- 해당 인터페이스는 두가지 기능을 나타냅니다.
-    - `Empty` 빈 연산의 결과를 나타냅니다.
-    - `Cons` 축소 작업이 결과를 나타냅니다.
+- 해당 인터페이스는 두가지 기능을 나타낸다.
+    - `Empty` 빈 연산의 결과
+    - `Cons` 축소 작업이 결과
     
     ```java
     public class Empty<E> implements ImList<E> {
@@ -120,10 +120,7 @@ render_with_liquid: true
     }
     ```
     
-- 우리는 모든 연산을 구현하였고 아래와 같은 스냅샷 다이어그램을 확인 할 수 있다.
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1492c136-60a9-4775-bb85-d42621a8a8ec/9c5ecd46-679f-4a3f-8d2c-a665a87c3ff9/Untitled.png)
-    
+- 우리는 모든 연산을 구현하였고 아래와 같은 스냅샷 다이어그램을 확인 가능.
 
 | Java syntax | Functional syntax | Result |
 | --- | --- | --- |
@@ -140,7 +137,7 @@ render_with_liquid: true
 | ImList<Integer> y = x.rest().cons(4); | y = cons(4, rest(x)) | [ 4, 1, 2 ] |
 - 이 구조에서 `x` 와 `y` 는 [1,2] 를 서로 공유 하고 있다는 것을 알고 있을것.
 
-## ****Recursive datatype definitions****
+## Recursive datatype definitions
 
 - 추상 데이터 타입의 `ImList` 는 두 구체적인 클래스 `Empty` , `Cons` 로 구성되어 있다.
 - 하지만 `ImList` 또한 자기 자신을 재귀적으로 사용할 수 있다
@@ -154,7 +151,7 @@ render_with_liquid: true
 - 재귀형 데이터 타입의 다른 예인 이진트리
     - `Tree<E> = Empty + Node(e:E, left:Tree<E>, right:Tree<E>)`
 
-## ****Functions over recursive datatypes****
+## Functions over recursive datatypes
 
 - 변형이 있는 추상 데이터타입의 재귀적 정의는 무한 구조 처리, 각 타입에 대한 변형의 트리 구조 성립등에 이점을 갖는다.
 - 예를 들어 사이즈를 측정하는 경우
@@ -236,7 +233,7 @@ public class Cons<E> implements ImList<E> {
     
     - 이러한 형식은 얼핏 보면 `size` 의 변화로 mutable하게 보인다. 하지만 이러한 방식은 beneficent mutation이다.
 
-### ****Rep independence and rep exposure revisited****
+### Rep independence and rep exposure revisited
 
 - 우리는 이러한 클래스들을 숨겨오는것을 배웠고 pacakage-private를 활용해 더 잘 숨길수 있을것 이다.
 - 오히려 `size()` 내 부에 배열을 숨기는 식으로 공간을 희생하고 더 빠른 계산의 가능
@@ -249,13 +246,13 @@ public class Cons<E> implements ImList<E> {
 - 코드가 더러워질 수가 있음
     - `n = lst.size();`
 
-## ****Declared type vs. actual type****
+## Declared type vs. actual type
 
 - type checking에는 컴파일 타임, 프로그램 실행 타임, 런타임 3가지로 나뉜다.
     - 컴파일 시간에는 선언된 타입을 가진다 모든 메소드에 유형을 추론하여 검사한다.
     - 런타임에는 실제 유형을 바탕으로 객체를 만든다. → 인터페이스를 선언할려고 하면 잡아낸다.
 
-## ****Another example: Boolean formulas****
+## Another example: Boolean formulas
 
 > (P [∨](https://en.wikipedia.org/wiki/Logical_disjunction) Q) [∧](https://en.wikipedia.org/wiki/Logical_conjunction) ([¬](https://en.wikipedia.org/wiki/Logical_negation)P [∨](https://en.wikipedia.org/wiki/Logical_disjunction) R)
 > 
@@ -269,7 +266,7 @@ Formula = Variable(name:String)
           + Or(left:Formula, right:Formula)
 ```
 
-### ****Backtracking search with immutability****
+### Backtracking search with immutability
 
 - 서로 다른 인스턴스를 관리 하기위해 불변 리스트로 시작했지만 리스트의 끝만 공유 하는 방식으로 우린 수정했다.
 - backtracking 방식은 이런 목록에서 매우 우수하다.

@@ -6,7 +6,7 @@ tags: [sw-engineering, SW공학]
 render_with_liquid: true
 ---
 
-## ****Specifications란 무엇인가?****
+## Specifications란 무엇인가?
 
 - 심각한 버그는 인터페이스의 동작에 대한 오해에서 나타난다.
 - 정확한 명세를 활용해 비난을 사람이 아닌 코드로 옮겨야한다.

@@ -43,7 +43,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Recursive data types" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"김규형"},"dateModified":"2024-12-15T15:10:00+09:00","datePublished":"2024-12-15T15:10:00+09:00","description":"Recursive functions","headline":"Recursive data types","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/learninghub/study/mit6.005-software%20construction/Recursive-Data-Types/"},"url":"http://localhost:4000/learninghub/study/mit6.005-software%20construction/Recursive-Data-Types/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"김규형"},"dateModified":"2024-12-15T22:55:32+09:00","datePublished":"2024-12-15T15:10:00+09:00","description":"Recursive functions","headline":"Recursive data types","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/learninghub/study/mit6.005-software%20construction/Recursive-Data-Types/"},"url":"http://localhost:4000/learninghub/study/mit6.005-software%20construction/Recursive-Data-Types/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -502,79 +502,6 @@
 
 
 
-  
-  
-
-  
-    
-      
-      
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-
-  
-
 
 <!-- Add header for code snippets -->
 
@@ -793,6 +720,29 @@
 
       <!-- lastmod date -->
       
+        <span>
+          업데이트
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1734270932"
+  data-df="YYYY/MM/DD"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  2024/12/15
+</time>
+
+        </span>
+      
 
       
 
@@ -838,7 +788,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="1735 단어"
+  title="1718 단어"
 >
   <em>9 분</em>읽는 시간</span>
 
@@ -943,10 +893,10 @@
   <span class="o">}</span>
 </pre></td></tr></tbody></table></code></div>    </div>
   </li>
-  <li>해당 인터페이스는 두가지 기능을 나타냅니다.
+  <li>해당 인터페이스는 두가지 기능을 나타낸다.
     <ul>
-      <li><code class="language-plaintext highlighter-rouge">Empty</code> 빈 연산의 결과를 나타냅니다.</li>
-      <li><code class="language-plaintext highlighter-rouge">Cons</code> 축소 작업이 결과를 나타냅니다.</li>
+      <li><code class="language-plaintext highlighter-rouge">Empty</code> 빈 연산의 결과</li>
+      <li><code class="language-plaintext highlighter-rouge">Cons</code> 축소 작업이 결과</li>
     </ul>
 
     <div class="language-java highlighter-rouge"><div class="code-header">
@@ -1048,11 +998,7 @@
   <span class="o">}</span>
 </pre></td></tr></tbody></table></code></div>    </div>
   </li>
-  <li>
-    <p>우리는 모든 연산을 구현하였고 아래와 같은 스냅샷 다이어그램을 확인 할 수 있다.</p>
-
-    <p><a href="https://prod-files-secure.s3.us-west-2.amazonaws.com/1492c136-60a9-4775-bb85-d42621a8a8ec/9c5ecd46-679f-4a3f-8d2c-a665a87c3ff9/Untitled.png" class="popup img-link  shimmer"><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/1492c136-60a9-4775-bb85-d42621a8a8ec/9c5ecd46-679f-4a3f-8d2c-a665a87c3ff9/Untitled.png" alt="Untitled" loading="lazy"></a></p>
-  </li>
+  <li>우리는 모든 연산을 구현하였고 아래와 같은 스냅샷 다이어그램을 확인 가능.</li>
 </ul>
 
 <p>| Java syntax | Functional syntax | Result |
@@ -1072,7 +1018,7 @@
   <li>이 구조에서 <code class="language-plaintext highlighter-rouge">x</code> 와 <code class="language-plaintext highlighter-rouge">y</code> 는 [1,2] 를 서로 공유 하고 있다는 것을 알고 있을것.</li>
 </ul>
 
-<h2 id="recursive-datatype-definitions"><span class="me-2"><strong>**Recursive datatype definitions</strong>**</span><a href="#recursive-datatype-definitions" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h2 id="recursive-datatype-definitions"><span class="me-2">Recursive datatype definitions</span><a href="#recursive-datatype-definitions" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <ul>
   <li>추상 데이터 타입의 <code class="language-plaintext highlighter-rouge">ImList</code> 는 두 구체적인 클래스 <code class="language-plaintext highlighter-rouge">Empty</code> , <code class="language-plaintext highlighter-rouge">Cons</code> 로 구성되어 있다.</li>
@@ -1095,7 +1041,7 @@
   </li>
 </ul>
 
-<h2 id="functions-over-recursive-datatypes"><span class="me-2"><strong>**Functions over recursive datatypes</strong>**</span><a href="#functions-over-recursive-datatypes" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h2 id="functions-over-recursive-datatypes"><span class="me-2">Functions over recursive datatypes</span><a href="#functions-over-recursive-datatypes" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <ul>
   <li>변형이 있는 추상 데이터타입의 재귀적 정의는 무한 구조 처리, 각 타입에 대한 변형의 트리 구조 성립등에 이점을 갖는다.</li>
@@ -1237,7 +1183,7 @@
   </li>
 </ul>
 
-<h3 id="rep-independence-and-rep-exposure-revisited"><span class="me-2"><strong>**Rep independence and rep exposure revisited</strong>**</span><a href="#rep-independence-and-rep-exposure-revisited" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h3 id="rep-independence-and-rep-exposure-revisited"><span class="me-2">Rep independence and rep exposure revisited</span><a href="#rep-independence-and-rep-exposure-revisited" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
 <ul>
   <li>우리는 이러한 클래스들을 숨겨오는것을 배웠고 pacakage-private를 활용해 더 잘 숨길수 있을것 이다.</li>
@@ -1260,7 +1206,7 @@
   </li>
 </ul>
 
-<h2 id="declared-type-vs-actual-type"><span class="me-2"><strong>**Declared type vs. actual type</strong>**</span><a href="#declared-type-vs-actual-type" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h2 id="declared-type-vs-actual-type"><span class="me-2">Declared type vs. actual type</span><a href="#declared-type-vs-actual-type" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <ul>
   <li>type checking에는 컴파일 타임, 프로그램 실행 타임, 런타임 3가지로 나뉜다.
@@ -1271,7 +1217,7 @@
   </li>
 </ul>
 
-<h2 id="another-example-boolean-formulas"><span class="me-2"><strong>**Another example: Boolean formulas</strong>**</span><a href="#another-example-boolean-formulas" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h2 id="another-example-boolean-formulas"><span class="me-2">Another example: Boolean formulas</span><a href="#another-example-boolean-formulas" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <blockquote>
   <p>(P <a href="https://en.wikipedia.org/wiki/Logical_disjunction">∨</a> Q) <a href="https://en.wikipedia.org/wiki/Logical_conjunction">∧</a> (<a href="https://en.wikipedia.org/wiki/Logical_negation">¬</a>P <a href="https://en.wikipedia.org/wiki/Logical_disjunction">∨</a> R)</p>
@@ -1292,7 +1238,7 @@
           <span class="o">+</span> <span class="k">Or</span><span class="p">(</span><span class="n">left</span><span class="o">:</span><span class="nc">Formula</span><span class="p">,</span> <span class="n">right</span><span class="o">:</span><span class="nc">Formula</span><span class="p">)</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<h3 id="backtracking-search-with-immutability"><span class="me-2"><strong>**Backtracking search with immutability</strong>**</span><a href="#backtracking-search-with-immutability" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h3 id="backtracking-search-with-immutability"><span class="me-2">Backtracking search with immutability</span><a href="#backtracking-search-with-immutability" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
 <ul>
   <li>서로 다른 인스턴스를 관리 하기위해 불변 리스트로 시작했지만 리스트의 끝만 공유 하는 방식으로 우린 수정했다.</li>
@@ -1433,6 +1379,27 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/learninghub/study/mit6.005-software%20construction/Equality/">Equality</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/learninghub/study/mit6.005-software%20construction/Exception/">Exception</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/learninghub/study/mit6.005-software%20construction/Interface/">Interface</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/learninghub/study/mit6.005-software%20construction/Mutability-&-Immutability/">Mutability & immutability</a>
         </li>
       
@@ -1440,28 +1407,7 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/learninghub/study/mit6.005-software%20construction/Debugguing/">Debugguing</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/learninghub/education/nhn%20academy/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B8%80%EC%9E%85%EB%8B%88%EB%8B%A4/">내맘대로 제목</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/learninghub/tech/jekyll-blog/Jekyll-%EB%A1%9C%EC%BB%AC-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95/">Jekyll 로컬환경 구축하기</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/learninghub/tech/jekyll-blog/Ubuntu%EC%97%90%EB%9F%AC/">Ubuntu runner가 업그레이드 됨</a>
+          <a href="/learninghub/study/mit6.005-software%20construction/Recursion/">Recursion</a>
         </li>
       
     </ul>
@@ -1490,6 +1436,111 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
       
         
         
@@ -1500,6 +1551,53 @@
     
     
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -1519,6 +1617,133 @@
     
     
     
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -1536,13 +1761,34 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/nhn-acedemy/">NHN Acedemy</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw-engineering/">sw-engineering</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw%EA%B3%B5%ED%95%99/">SW공학</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/writing/">writing</a>
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/cs/">CS</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/web/">Web</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/servlet/">Servlet</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/thread/">Thread</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/db/">DB</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/java/">Java</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/jdbc/">JDBC</a>
       
     </div>
   </section>
@@ -1598,6 +1844,150 @@
 
 
 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
   
 
@@ -1798,7 +2188,7 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/learninghub/study/mit6.005-software%20construction/Mutability-&-Immutability/" class="post-preview card h-100">
+          <a href="/learninghub/study/mit6.005-software%20construction/Vison-Control/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1817,68 +2207,27 @@
   2024/12/15
 </time>
 
-              <h4 class="pt-0 my-2">Mutability & immutability</h4>
-              <div class="text-muted">
-                <p>Object
-
-
-  가변 객체와 가변성에 대해 이핸다.
-  allasing(별명 짓기)를 Identify 성과 가변성의 위험을 이해
-  불변성을 사용해 정확성, 명확성,등을 개선한다.
-
-
-**Mutability**
-
-
-  Java의 일부 객체는 불변성을 가지고 있다.
-  한번 생성되면 → 항상 동일한 값을 가지고 있다. [Immutability]
-  ...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/learninghub/study/mit6.005-software%20construction/Interface/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1734243000"
-  data-df="YYYY/MM/DD"
-  
->
-  2024/12/15
-</time>
-
-              <h4 class="pt-0 my-2">Interface</h4>
+              <h4 class="pt-0 my-2">Vison control</h4>
               <div class="text-muted">
                 <p>Objectives
 
 
-  ADT를 정의하고 인터페이스를 구현하는 클래스를 작성하기
+  version control이 무엇이고 왜 사용하는지 파악하기
+  어떻게 git이 version history를 그래프로 저장하는지 이해
+  version history를 사용하고 읽고 만드는것을 연습
 
 
-Interfaces
+Introduction
 
 
-  자바의 interface 는 추상 데이터 유형 표현해 유용한 언어 메커니즘
-  메서드 시그니쳐는 있지만… bodies는 없다.
-  interface 는 모든 메서드에 대한 메서드 bodies를 정의한다. 따라서 JAVA에서 인터페이스는 추...</p>
+  Version control 시스템은 소프트웨어 공학에선 필수적인 도구입니다. 대부분의 오...</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/learninghub/study/mit6.005-software%20construction/Exception/" class="post-preview card h-100">
+          <a href="/learninghub/study/mit6.005-software%20construction/Testing/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1897,16 +2246,61 @@ Interfaces
   2024/12/15
 </time>
 
-              <h4 class="pt-0 my-2">Exception</h4>
+              <h4 class="pt-0 my-2">Testing</h4>
               <div class="text-muted">
-                <p>Exceptions for signaling bugs
+                <p>이번 장의 목표
 
 
-  자바 프로그래밍에는 다양한 예외가 있다.
-    
-      ArrayIndex-OutOfBoundsExceions 같은…
-      NullPointerException 또한 일반적인 예외이다.
-      NumberFormatException 은 Interger.parseInt 정수로 구...</p>
+  Test-first programmin의 절차를 알고, 테스팅 값을 이해하는것
+  메소드의 input과 output에 적절한 테스트를 디자인 하고 좋은 TC를 고르는것
+  테스트가 코드에 어느 범위 까지 적용 되는것을 이해하는것
+  블랙박스와 화이트박스 테스트를 이해하고 유닛과 통합 테스트 그리고 자동 회귀 테스트를 이해한다.
+...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/learninghub/study/mit6.005-software%20construction/Static-Checking/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1734243000"
+  data-df="YYYY/MM/DD"
+  
+>
+  2024/12/15
+</time>
+
+              <h4 class="pt-0 my-2">Static checking</h4>
+              <div class="text-muted">
+                <p>**Hailstone Sequence**
+
+
+  
+    n이 짝수일 때 n / 2, n이 홀수 일때 3n + 1
+
+    1
+2
+3
+4
+5
+6
+  2, 1         
+  3, 10, 5, 16, 8, 4, 2, 1     
+  4, 2, 1
+  2n, 2n-1 , ... , 4, 2, 1
+  5, 16, 8, 4, 2, 1
+  7, 22, 11...</p>
               </div>
             </div>
           </a>
@@ -2013,6 +2407,111 @@ Interfaces
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
       
         
         
@@ -2023,6 +2522,53 @@ Interfaces
     
     
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -2042,6 +2588,133 @@ Interfaces
     
     
     
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -2059,13 +2732,34 @@ Interfaces
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/nhn-acedemy/">NHN Acedemy</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw-engineering/">sw-engineering</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw%EA%B3%B5%ED%95%99/">SW공학</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/writing/">writing</a>
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/cs/">CS</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/web/">Web</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/servlet/">Servlet</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/thread/">Thread</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/db/">DB</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/java/">Java</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/jdbc/">JDBC</a>
       
     </div>
   </section>

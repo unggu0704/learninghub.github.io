@@ -20,7 +20,7 @@ render_with_liquid: true
     - **얼마나 선언적인가?** : 스펙은 출력이 무엇인지를 말하는가? 아니면 출력이 어떻게 이뤄지는지를 말하는가?
     - **얼마나 강한가?** : 스펙은 작거나 큰 가능한 구현 집합이 있는가?
 
-## ****Deterministic vs. underdetermined specs****
+## Deterministic vs. underdetermined specs
 
 ```
 static int findFirst(int[] arr, int val) {

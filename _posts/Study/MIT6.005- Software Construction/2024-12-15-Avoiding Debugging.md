@@ -6,7 +6,7 @@ tags: [sw-engineering, SW공학]
 render_with_liquid: true
 ---
 
-## ****First Defense: Make Bugs Impossible****
+## First Defense: Make Bugs Impossible
 
 - 버그에 대한 최고의 방법은 설계상 불가능하게 하는것.
 - 이전에 이야기한 static checking → 컴파일 시간에 버그를 제거함

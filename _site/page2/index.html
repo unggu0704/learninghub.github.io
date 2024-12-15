@@ -39,6 +39,7 @@
 <meta property="og:site_name" content="Unggu" />
 <meta property="og:type" content="website" />
 <link rel="prev" href="http://localhost:4000/learninghub/" />
+<link rel="next" href="http://localhost:4000/learninghub/page3" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unggu" />
 <script type="application/ld+json">
@@ -722,7 +723,7 @@ Reproduce the Bug
             <h1 class="card-title my-2 mt-md-0">Avoiding debugging</h1>
 
             <div class="card-text content mt-0 mb-3">
-              <p>**First Defense: Make Bugs Impossible**
+              <p>First Defense: Make Bugs Impossible
 
 
   버그에 대한 최고의 방법은 설계상 불가능하게 하는것.
@@ -730,7 +731,7 @@ Reproduce the Bug
     이전에 이야기한 static checking → 컴파일 시간에 버그를 제거함
   
   불변성 : 한번 생성된 값은 절대 바뀌지 못한다. → 버그를 예방하는 또 다른 원리
-  String은 불변이다.버그를 방지...</p>
+  String은 불변이다.버그를 방지하기 위...</p>
             </div>
 
             <div class="post-meta flex-grow-1 d-flex align-items-end">
@@ -776,7 +777,7 @@ Reproduce the Bug
     </article>
   
     <article class="card-wrapper card">
-      <a href="/learninghub/study/mit6.005-%20software%20construction/Abstraction-Functions-&-Rep-Invariants/" class="post-preview row g-0 flex-md-row-reverse">
+      <a href="/learninghub/study/mit6.005-software%20construction/Abstraction-Functions-&-Rep-Invariants/" class="post-preview row g-0 flex-md-row-reverse">
         
 
         
@@ -827,7 +828,7 @@ Reproduce the Bug
                   <span class="categories">
                     
                       Study,
-                      MIT6.005- Software Construction
+                      MIT6.005-Software Construction
                   </span>
                 
               </div>
@@ -910,24 +911,36 @@ What Abstraction Means
     </article>
   
     <article class="card-wrapper card">
-      <a href="/learninghub/tech/jekyll-blog/jekyll%EC%9D%B4%EB%AF%B8%EC%A7%80%EA%B4%80%EB%A6%AC/" class="post-preview row g-0 flex-md-row-reverse">
+      <a href="/learninghub/nhn%20academy/servlet-jsp/9.-MVC/" class="post-preview row g-0 flex-md-row-reverse">
         
 
         
 
         <div class="col-md-12">
           <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Jekyll 이미지 관리하기</h1>
+            <h1 class="card-title my-2 mt-md-0">9. mvc</h1>
 
             <div class="card-text content mt-0 mb-3">
-              <p>Jekyll에서는 일반적으로 글은 _posts 에 이미지는 assets 에 저장한다.
+              <p>MVC (23. 11. 27)
 
-하지만 이러한 방식의 경우 추후 image가 많아 질경우 두가지 디렉토리에 관리를 해줘야하는 불편함이 예상되었다..
 
-일반적인 jekyll의 이미지 리소스 관리
 
-learninghub/                 # 프로젝트의 루트 디렉토리
-├── _config....</p>
+
+  Model: 비즈니스 로직 및 데이터 처리 담당
+  View: 모델이 처리한 결과 데이터의 화면 생성 담당
+  Controller: 요청 처리 및 흐름 제어 담당
+
+
+장점
+
+
+  변화 유연
+  유지 보수 우수
+
+
+기존 Servlet (비즈니스와 뷰가 함께 있음)
+
+resp.setContentType(&quot;text/...</p>
             </div>
 
             <div class="post-meta flex-grow-1 d-flex align-items-end">
@@ -944,11 +957,11 @@ learninghub/                 # 프로젝트의 루트 디렉토리
 
 <time
   
-  data-ts="1734178200"
+  data-ts="1734243000"
   data-df="YYYY/MM/DD"
   
 >
-  2024/12/14
+  2024/12/15
 </time>
 
 
@@ -957,8 +970,8 @@ learninghub/                 # 프로젝트의 루트 디렉토리
                   <i class="far fa-folder-open fa-fw me-1"></i>
                   <span class="categories">
                     
-                      Tech,
-                      jekyll-blog
+                      NHN Academy,
+                      Servlet-JSP
                   </span>
                 
               </div>
@@ -973,32 +986,28 @@ learninghub/                 # 프로젝트의 루트 디렉토리
     </article>
   
     <article class="card-wrapper card">
-      <a href="/learninghub/tech/jekyll-blog/Ubuntu%EC%97%90%EB%9F%AC/" class="post-preview row g-0 flex-md-row-reverse">
+      <a href="/learninghub/nhn%20academy/servlet-jsp/8.-JSP/" class="post-preview row g-0 flex-md-row-reverse">
         
 
         
 
         <div class="col-md-12">
           <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Ubuntu runner가 업그레이드 됨</h1>
+            <h1 class="card-title my-2 mt-md-0">8. jsp</h1>
 
             <div class="card-text content mt-0 mb-3">
-              <p>Github의 Runner서버 중 (*Ubuntu-24-04-64x)* 가 기존의 Action에 맞지 않다고 에러가 발생
+              <p>JSP (23. 11. 26)
 
 
-
-기존의 Workflow 설정(Asis)
-
-jobs:
-  # Build job
-  build:
-    runs-on: ubuntu-latest
-
-
-
-  ubuntu-latest를 설정하고 있음
+  JSP란?
     
-      2024년 1월...</p>
+      자바 스크립트와는 다르다.
+      Java Server Pages의 약자
+      HTML에 JAVA 코드를 넣어 동적 웹 페이지를 생성하는 웹 어플리케이션 도구
+      JSP 실행시 JAVA Servlet으로 변환되어 웹이 동작한다!
+    
+  
+  Servlet 의 확장...</p>
             </div>
 
             <div class="post-meta flex-grow-1 d-flex align-items-end">
@@ -1015,11 +1024,11 @@ jobs:
 
 <time
   
-  data-ts="1734167400"
+  data-ts="1734243000"
   data-df="YYYY/MM/DD"
   
 >
-  2024/12/14
+  2024/12/15
 </time>
 
 
@@ -1028,8 +1037,8 @@ jobs:
                   <i class="far fa-folder-open fa-fw me-1"></i>
                   <span class="categories">
                     
-                      Tech,
-                      jekyll-blog
+                      NHN Academy,
+                      Servlet-JSP
                   </span>
                 
               </div>
@@ -1044,31 +1053,23 @@ jobs:
     </article>
   
     <article class="card-wrapper card">
-      <a href="/learninghub/tech/jekyll-blog/Jekyll-%EB%A1%9C%EC%BB%AC-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95/" class="post-preview row g-0 flex-md-row-reverse">
+      <a href="/learninghub/nhn%20academy/servlet-jsp/7.-RequestDispatcher,-Servlet-Filter/" class="post-preview row g-0 flex-md-row-reverse">
         
 
         
 
         <div class="col-md-12">
           <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Jekyll 로컬환경 구축하기</h1>
+            <h1 class="card-title my-2 mt-md-0">7. requestdispatcher, servlet filter</h1>
 
             <div class="card-text content mt-0 mb-3">
-              <p>1. Ruby 설치
+              <p>RequestDispatcher, Servlet Filter (23. 11. 04)
 
-Chirpy의 테마를 설치하기 위해서는 Ruby 3.1.x를 설정해야한다.
+RequestDispatcher
 
-2-1. Window 설치
 
-https://rubyinstaller.org/downloads/
-
-에 방문하여 3.1.6(with DEVKIT)과 함께 다운받는다.
-
-2-2. MAC
-
-brew를 통해 설치한다.
-
-brew install rbenv ruby-...</p>
+  RequestDispatcher는 다른 페이지나 서블릿으로 현재 요청을 보내거나 다른 페이지나 서블릿의 출력을 현재 페이지에 포함시키는 데 사용
+  클라이언트로부터 들어온 요청을 Servlet내에서 원하는 자원으로 요청을 보내는...</p>
             </div>
 
             <div class="post-meta flex-grow-1 d-flex align-items-end">
@@ -1085,11 +1086,11 @@ brew install rbenv ruby-...</p>
 
 <time
   
-  data-ts="1734167400"
+  data-ts="1734243000"
   data-df="YYYY/MM/DD"
   
 >
-  2024/12/14
+  2024/12/15
 </time>
 
 
@@ -1098,8 +1099,8 @@ brew install rbenv ruby-...</p>
                   <i class="far fa-folder-open fa-fw me-1"></i>
                   <span class="categories">
                     
-                      Tech,
-                      jekyll-blog
+                      NHN Academy,
+                      Servlet-JSP
                   </span>
                 
               </div>
@@ -1114,26 +1115,27 @@ brew install rbenv ruby-...</p>
     </article>
   
     <article class="card-wrapper card">
-      <a href="/learninghub/education/nhn%20academy/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B8%80%EC%9E%85%EB%8B%88%EB%8B%A4/" class="post-preview row g-0 flex-md-row-reverse">
+      <a href="/learninghub/nhn%20academy/servlet-jsp/5.-web.xml/" class="post-preview row g-0 flex-md-row-reverse">
         
 
         
 
         <div class="col-md-12">
           <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">내맘대로 제목</h1>
+            <h1 class="card-title my-2 mt-md-0">5. web.xml</h1>
 
             <div class="card-text content mt-0 mb-3">
-              <p>테스트글입
+              <p>web.xml(23. 11. 23)
 
-test
+배치 기술서 (Deployment Descriptor: DD)
 
-_상대url
 
-상대경로
-새로운 변경
+  웹 애플리케이션의 배치 정보를 담고 있는 XML 파일
+  /WEB-INF/ 디렉터리 하위에 위치
+  
+    &amp;lt;web-app&amp;gt; 이라는 하나의 태그 하위로 설정을 기술
 
-이슈이미지</p>
+      web.xml은 Java 웹 애플리케이션에서 사용되는 배...</p>
             </div>
 
             <div class="post-meta flex-grow-1 d-flex align-items-end">
@@ -1150,11 +1152,11 @@ _상대url
 
 <time
   
-  data-ts="1733292600"
+  data-ts="1734243000"
   data-df="YYYY/MM/DD"
   
 >
-  2024/12/04
+  2024/12/15
 </time>
 
 
@@ -1163,8 +1165,8 @@ _상대url
                   <i class="far fa-folder-open fa-fw me-1"></i>
                   <span class="categories">
                     
-                      Education,
-                      NHN Academy
+                      NHN Academy,
+                      Servlet-JSP
                   </span>
                 
               </div>
@@ -1236,18 +1238,98 @@ _상대url
         </li>
       
     
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/learninghub/page3"
+          >3</a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+          <li class="page-item disabled">
+            <span class="page-link">...</span>
+          </li>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/learninghub/page7"
+          >7</a>
+        </li>
+      
+    
 
     <!-- mobile pagination -->
     <li class="page-index align-middle">
       <span>2</span>
-      <span class="text-muted">/ 2</span>
+      <span class="text-muted">/ 7</span>
     </li>
 
     <!-- right arrow -->
     
 
-    <li class="page-item disabled">
-      <a class="page-link" href="#" aria-label="next-page">
+    <li class="page-item ">
+      <a class="page-link" href="/learninghub/page3" aria-label="next-page">
         <i class="fas fa-angle-right"></i>
       </a>
     </li>
@@ -1287,6 +1369,27 @@ _상대url
         
         
         <li class="text-truncate lh-lg">
+          <a href="/learninghub/study/mit6.005-software%20construction/Equality/">Equality</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/learninghub/study/mit6.005-software%20construction/Exception/">Exception</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/learninghub/study/mit6.005-software%20construction/Interface/">Interface</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/learninghub/study/mit6.005-software%20construction/Mutability-&-Immutability/">Mutability & immutability</a>
         </li>
       
@@ -1294,28 +1397,7 @@ _상대url
         
         
         <li class="text-truncate lh-lg">
-          <a href="/learninghub/study/mit6.005-software%20construction/Debugguing/">Debugguing</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/learninghub/education/nhn%20academy/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B8%80%EC%9E%85%EB%8B%88%EB%8B%A4/">내맘대로 제목</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/learninghub/tech/jekyll-blog/Jekyll-%EB%A1%9C%EC%BB%AC-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95/">Jekyll 로컬환경 구축하기</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/learninghub/tech/jekyll-blog/Ubuntu%EC%97%90%EB%9F%AC/">Ubuntu runner가 업그레이드 됨</a>
+          <a href="/learninghub/study/mit6.005-software%20construction/Recursion/">Recursion</a>
         </li>
       
     </ul>
@@ -1344,6 +1426,111 @@ _상대url
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
       
         
         
@@ -1354,6 +1541,53 @@ _상대url
     
     
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -1373,6 +1607,133 @@ _상대url
     
     
     
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -1390,13 +1751,34 @@ _상대url
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/nhn-acedemy/">NHN Acedemy</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw-engineering/">sw-engineering</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw%EA%B3%B5%ED%95%99/">SW공학</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/writing/">writing</a>
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/cs/">CS</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/web/">Web</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/servlet/">Servlet</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/thread/">Thread</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/db/">DB</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/java/">Java</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/jdbc/">JDBC</a>
       
     </div>
   </section>
@@ -1478,6 +1860,111 @@ _상대url
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
       
         
         
@@ -1488,6 +1975,53 @@ _상대url
     
     
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -1507,6 +2041,133 @@ _상대url
     
     
     
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -1524,13 +2185,34 @@ _상대url
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/nhn-acedemy/">NHN Acedemy</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw-engineering/">sw-engineering</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/sw%EA%B3%B5%ED%95%99/">SW공학</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/writing/">writing</a>
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/cs/">CS</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/web/">Web</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/servlet/">Servlet</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/thread/">Thread</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/db/">DB</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/java/">Java</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/learninghub/tags/jdbc/">JDBC</a>
       
     </div>
   </section>

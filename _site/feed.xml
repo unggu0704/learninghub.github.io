@@ -4,7 +4,7 @@
   <id>http://localhost:4000/learninghub/</id>
   <title>Unggu</title>
   <subtitle>엉구</subtitle>
-  <updated>2024-12-15T22:52:59+09:00</updated>
+  <updated>2024-12-16T00:51:20+09:00</updated>
   <author>
     <name>김규형</name>
     <uri>http://localhost:4000/learninghub/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Vison-Control/" rel="alternate" type="text/html" title="Vison control" />
     <published>2024-12-15T15:10:00+09:00</published>
   
-    <updated>2024-12-15T15:10:00+09:00</updated>
+    <updated>2024-12-15T22:55:32+09:00</updated>
   
     <id>http://localhost:4000/learninghub/study/mit6.005-software%20construction/Vison-Control/</id>
     <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Vison-Control/" />
@@ -43,15 +43,15 @@
   <summary>Objectives
 
 
-  version control이 무엇이고 왜 사용하는지 파악합니다.
-  어떻게 git이 version history를 그래프로 저장하는지 이해합니다.
-  version history를 사용하고 읽고 만드는것을 연습합니다.
+  version control이 무엇이고 왜 사용하는지 파악하기
+  어떻게 git이 version history를 그래프로 저장하는지 이해
+  version history를 사용하고 읽고 만드는것을 연습
 
 
 Introduction
 
 
-  Version control 시스템은 소프트웨어 공학에선 필수적인 도구입니다. 대부분의 오픈, 취미 등등에서 사용합니다.
+  Version control 시스템은 소프트웨어 공학에선 필수적인 도구입니다. 대부분의 오픈, 취미 등등에서 사용.
   version control 없이 팀원의 모든 코드를 조절하는 것은 매우 어렵다.
 
 
@@ -70,7 +70,7 @@ Inventing version control(버전 컨트롤의 발명)
 엘리스 혼자서 개발할때
 
 
-  ...</summary>
+  version contr...</summary>
 
   </entry>
 
@@ -80,7 +80,7 @@ Inventing version control(버전 컨트롤의 발명)
     <link href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Testing/" rel="alternate" type="text/html" title="Testing" />
     <published>2024-12-15T15:10:00+09:00</published>
   
-    <updated>2024-12-15T15:10:00+09:00</updated>
+    <updated>2024-12-15T22:55:32+09:00</updated>
   
     <id>http://localhost:4000/learninghub/study/mit6.005-software%20construction/Testing/</id>
     <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Testing/" />
@@ -122,7 +122,7 @@ Inventing version control(버전 컨트롤의 발명)
     <link href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Static-Checking/" rel="alternate" type="text/html" title="Static checking" />
     <published>2024-12-15T15:10:00+09:00</published>
   
-    <updated>2024-12-15T15:10:00+09:00</updated>
+    <updated>2024-12-15T22:55:32+09:00</updated>
   
     <id>http://localhost:4000/learninghub/study/mit6.005-software%20construction/Static-Checking/</id>
     <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Static-Checking/" />
@@ -172,7 +172,7 @@ Type
     <link href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Specifications/" rel="alternate" type="text/html" title="Specifications" />
     <published>2024-12-15T15:10:00+09:00</published>
   
-    <updated>2024-12-15T15:10:00+09:00</updated>
+    <updated>2024-12-15T22:55:32+09:00</updated>
   
     <id>http://localhost:4000/learninghub/study/mit6.005-software%20construction/Specifications/</id>
     <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Specifications/" />
@@ -188,7 +188,7 @@ Type
     
   
 
-  <summary>**Specifications란 무엇인가?**
+  <summary>Specifications란 무엇인가?
 
 
   심각한 버그는 인터페이스의 동작에 대한 오해에서 나타난다.
@@ -214,7 +214,7 @@ Type
       /*
    * 실제 코드 
    */
-  if (val.sign...</summary>
+  if (val.signum =...</summary>
 
   </entry>
 
@@ -224,7 +224,7 @@ Type
     <link href="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Recursive-Data-Types/" rel="alternate" type="text/html" title="Recursive data types" />
     <published>2024-12-15T15:10:00+09:00</published>
   
-    <updated>2024-12-15T15:10:00+09:00</updated>
+    <updated>2024-12-15T22:55:32+09:00</updated>
   
     <id>http://localhost:4000/learninghub/study/mit6.005-software%20construction/Recursive-Data-Types/</id>
     <content type="text/html" src="http://localhost:4000/learninghub/study/mit6.005-software%20construction/Recursive-Data-Types/" />

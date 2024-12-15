@@ -98,8 +98,6 @@ render_with_liquid: true
 - 프로그램을 모듈로써 생각하고 알고리즘의 단계로 생각하는 것은 프로그램의 나머지 전체를 배제하는데 도움이 된다.
 - 전체적인 데이터의 흐름
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1492c136-60a9-4775-bb85-d42621a8a8ec/f3cc4132-630e-4d75-9d7b-2696d1256986/Untitled.png)
-    
     - 버그의 증상이 `countOccurrences()` 의 Exception인 경우 `findMostFrequent()` 가 배제 가능하다.
     - 그렇다면 `splitIntoWords()` 에 버그가 있다고 가정하고 실험을 진행해볼 수도 있다.
     - 만약 위의 가정이 true라면 `countOccurrences()` 또한 배제가 가능하다.

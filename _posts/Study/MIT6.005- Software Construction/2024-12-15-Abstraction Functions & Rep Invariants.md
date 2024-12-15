@@ -1,7 +1,7 @@
 ---
 author: 김규형
 date: 2024-12-15 14:10:00 +0800
-categories: [Study, MIT6.005- Software Construction]
+categories: [Study, MIT6.005-Software Construction]
 tags: [sw-engineering, SW공학]
 render_with_liquid: true
 ---
@@ -339,15 +339,15 @@ public class RatNum {
     
 - 전체적으로 `checkRep()` 을 호출하여 모든 생성과 변형 작업에서 RI 불변성을 주장해야한다.
 - 위 코드는 각각의 constructors의 끝에 checkRep()을 호출하고 있다.
-- Obersver methods는 일반적으로 `checkRep()` 을 호출할 필요는 없지만 이렇게 하는 방식은 좀더 defensive 한 방식입니다.
-- 왜?  모든 방향에서 `checkRep()` 을 호출하는것은 당신이 RI를 조금더 잘 잡을수 있다는 것입니다.
+- Obersver methods는 일반적으로 `checkRep()` 을 호출할 필요는 없지만 이렇게 하는 방식은 좀더 defensive 한 방식.
+- 왜?  모든 방향에서 `checkRep()` 을 호출하는것은 당신이 RI를 조금더 잘 잡을수 있다는 것.
 - 왜 checkRep이 private인가? → RI를 체크하고 RI를 확인할 책임은 누가져야하는가? clients? 구현자?
 
 ### No Null Values in the Rep
 
 - 이전 파트에서 읽었듯이 null values는 여러가지 문제를 일으킨다.
 - null은 우리 공부에서 언제나 가장 제거해야하는 항목이다.
-- 우리는 추상 데이터 타입에 또한  null 참조를 금지할것입니다.
+- 추상 데이터 타입에 또한  null 참조를 금지하는 것이 좋다.
 
 ```java
 class CharSet {
@@ -355,9 +355,9 @@ class CharSet {
 }
 ```
 
-- `s` 는 당연히 null이 아닙니다!
-- 하지만 `checkRep()` 을 구현 할때 여러분은 여전히 `s != null` 이라는걸 체크해야합니다.
-- `s` 가 `null` 이라면 바로 실패해야하죠
+- `s` 는 당연히 null이 아님
+- 하지만 `checkRep()` 을 구현 할때 여전히 `s != null` 이라는걸 체크가 필요함
+- `s` 가 `null` 이라면 바로 실패
 - 자바에서 기본으로 제공해주는 s를 null 인지 알려주는 예시
     
     ```java
@@ -372,8 +372,8 @@ class CharSet {
 
 ## ****Documenting the AF, RI, and Safety from Rep Exposure****
 
-- class 안의 RI 와 AF를 문서화하는 것을 매우 좋습니다.
-- 또다른 논쟁은 **Rep Exposure argument safety** 입니다. 이는 rep의 각 부분을 조사하고 코드에에서 rep를 다루는 부분에서(특히 파라미터와 return값)을 살펴보고 rep가 노출하지 않은 이유를 서술
+- class 안의 RI 와 AF를 문서화하은 좋은편
+- 또다른 논쟁은 **Rep Exposure argument safety**. 이는 rep의 각 부분을 조사하고 코드에에서 rep를 다루는 부분에서(특히 파라미터와 return값)을 살펴보고 rep가 노출하지 않은 이유를 서술
 - `Tweet` 은 Invariant, abstraction function 안정성이 완전히 문서화된 예
     
     ```java
@@ -403,8 +403,8 @@ class CharSet {
     }
     ```
     
-- 우리는 어떠한 명시적인 불변 조건도 `timestamp` 에 가지고 있지 않다는 점을 명심하십시오. `timestamp != null` 그러나 여전히 `timestamp` 의 전체 유형의 불변성 속성은 변경되지 않은 immutability입니다.
-- 왜냐하면 전체 내부 argument에서 이것을 변경할 것이 없기 떄문입니다.
+- 우리는 어떠한 명시적인 불변 조건도 `timestamp` 에 가지고 있지 않는다 `timestamp != null` 그러나 여전히 `timestamp` 의 전체 유형의 불변성 속성은 변경되지 않은 immutability
+- 왜냐하면 전체 내부 argument에서 이것을 변경할 것이 없다.
 - `RatNum` 의 argument
     
     ```java
@@ -431,15 +431,17 @@ class CharSet {
 
 ### How to Establish Invariants
 
-- Invariant는 프로그램 전체에 대해서 True인 특성으로, 객체에 대한 invariant의 경우 객체 전체 수명을 감소시킵니다.
-- Invariant를 유지하기 위해선 다음을 수행해야합니다.
-    - 객체의 초기 상태를 invariant True로 만듭니다.
-    - 객체의 모든 변경상항에 대해 invariant True로 만듭니다.
-- ADT 연산자로 이를 변환하면 다음과 같은 의미를 가집니다.
-    - creators와 producers는 새로운 객체 인스턴스에 대한 invariant를 설정해야합니다.
-    - mutators 와 observers는 invariant를 보존해야합니다.
-- rep exposure는 언제나 상황을 더 복잡하게 만듭니다. 만약 노출 된다면 ADT의 연산 뿐만 아니라 프로그램 어디서든지 객체가 변경되어질 수 있습니다.
-- 이러한 현상은 invariant를 보장할 수 없어집니다.
+Invariant는 프로그램 전체에서 항상 참인 특성임. 객체의 invariant는 객체 수명 동안 유지되어야 함.
+Invariant를 유지하려면 다음을 해야 함:
+객체 초기 상태에서 invariant를 참으로 설정해야 함.
+객체가 변경될 때마다 invariant를 참으로 유지해야 함.
+ADT 연산자로 보면 의미는 이렇다:
+creators랑 producers는 새로운 객체 인스턴스에 대해 invariant를 설정해야 함.
+mutators랑 observers는 invariant를 계속 유지해야 함.
+rep exposure는 항상 문제를 더 복잡하게 만듦.
+만약 rep이 노출되면 ADT 연산뿐 아니라 프로그램 어디서든 객체가 수정될 수 있음.
+이렇게 되면 invariant를 보장할 수 없게 됨.
+
 - **Structural Induction** 추상 데이터 타입의 invariant가 다음과 같은 경우
     - creators와 producers에 의해 설립됨
     - mutators와 observers에 보존됨
@@ -447,7 +449,7 @@ class CharSet {
 
 ## ****ADT invariants replace preconditions****
 
-- 지금까지 공부한것을 합쳐 잘 설계된 추상 타입은 규정해야할 전제 조건을 캡슐화 할 수 있다는 것이다.
+- 지금까지 공부한것을 합쳐 잘 설계된 추상 타입은 규정해야할 전제 조건을 캡슐화 할 수 있다는 것
 - 예를 들어 spec이 다음과 같을때 정교한 precondition
     
     ```java

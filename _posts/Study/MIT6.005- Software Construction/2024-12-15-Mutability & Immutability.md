@@ -12,7 +12,7 @@ render_with_liquid: true
 - allasing(별명 짓기)를 Identify 성과 가변성의 위험을 이해
 - 불변성을 사용해 정확성, 명확성,등을 개선한다.
 
-## ****Mutability****
+## Mutability
 
 - Java의 일부 객체는 불변성을 가지고 있다.
 - 한번 생성되면 → 항상 동일한 값을 가지고 있다. *[Immutability]*
@@ -54,7 +54,7 @@ tb.append("c");
 - 일반적인 `String` 에서 `t` 와 `s` 는 같은 객체를 가르킨다. 물론 `tb` 와 `sb` 또한 같은 객체를 가르킨다.
 - 하지만 값의 변경이 이루어질 때 `t` 는 새로운 객체인 **abc** 를 생성해서 가르키지만, `tb` 는 `sb` 와 함께 가르키는 객체를 수정해 `sb` 또한 같이 값이 변경된다.
     
-![string-vs-stringbuilder.png](image/string-vs-stringbuilder.png)
+![string-vs-stringbuilder.png]({{ site.baseurl }}{{ page.url }}/image/string-vs-stringbuilder.png)
     
 - `String` 의 사용이 일부 코드에서 지양되는 이유
     

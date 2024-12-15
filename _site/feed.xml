@@ -4,7 +4,7 @@
   <id>http://localhost:4000/learninghub/</id>
   <title>Unggu</title>
   <subtitle>엉구</subtitle>
-  <updated>2024-12-15T19:39:56+09:00</updated>
+  <updated>2024-12-15T19:52:14+09:00</updated>
   <author>
     <name>김규형</name>
     <uri>http://localhost:4000/learninghub/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/learninghub/categories/tech/jekyll-blog/Ubuntu%EC%97%90%EB%9F%AC/" rel="alternate" type="text/html" title="Ubuntu runner가 업그레이드 됨" />
     <published>2024-12-14T18:10:00+09:00</published>
   
-    <updated>2024-12-14T18:10:00+09:00</updated>
+    <updated>2024-12-15T19:40:08+09:00</updated>
   
     <id>http://localhost:4000/learninghub/categories/tech/jekyll-blog/Ubuntu%EC%97%90%EB%9F%AC/</id>
     <content type="text/html" src="http://localhost:4000/learninghub/categories/tech/jekyll-blog/Ubuntu%EC%97%90%EB%9F%AC/" />

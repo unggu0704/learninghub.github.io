@@ -1,12 +1,12 @@
 ---
-author: 김규형
+author: "unggu"
 date: 2024-01-11 12:17:32 +0800
 categories: [SSAFY, Java]
 tags: [SSAFY, Java]
 render_with_liquid: true
 comments: true
 image:
-  path: https://images.velog.io/images/codemcd/post/13ef824a-175d-41aa-a766-a649bd855a2e/Java_Logo.png
+  path: https://www.ssafy.com/swp/images/sns_img.png
 ---
 
 

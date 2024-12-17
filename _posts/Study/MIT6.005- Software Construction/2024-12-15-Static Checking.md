@@ -6,7 +6,7 @@ tags: [sw-engineering, SW공학]
 render_with_liquid: true
 ---
 
-## ****Hailstone Sequence****
+## Hailstone Sequence
 
 - n이 짝수일 때 n / 2, n이 홀수 일때 3n + 1
     
@@ -93,7 +93,7 @@ render_with_liquid: true
     *ex) int n 에서 n이 양수임을 알림*
     
 
-## ****Mutating Values vs. Reassigning Variables****
+## Mutating Values vs. Reassigning Variables
 
 ### Mutable
 
@@ -110,7 +110,7 @@ render_with_liquid: true
 - 자바가 제공하는 Immutable 예약어
 - 재 할당 할려고 시도시 Compile error가 발생해 Static checking이 가능해짐
 
-## ****Documenting Assumptions****
+## Documenting Assumptions
 
 - 일반적으로 int 로 선언된 변수는 컴파일러가 검사한다.
 - final로 선언 한다면 절대 재 할당되지 않은 것을 컴파일러가 인지한다

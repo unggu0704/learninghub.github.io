@@ -1,3 +1,14 @@
+---
+author: "unggu"
+date: 2024-01-11 12:17:32 +0800
+categories: [SSAFY, Java]
+tags: [SSAFY, Java]
+render_with_liquid: true
+comments: true
+image:
+  path: https://www.ssafy.com/swp/images/sns_img.png
+---
+
 # Java - Basic(24. 01 .15)
 
 ## 자바의 자료형

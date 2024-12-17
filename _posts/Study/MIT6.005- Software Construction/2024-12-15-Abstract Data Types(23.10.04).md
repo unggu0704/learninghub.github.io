@@ -252,7 +252,7 @@ public class MyString {
 - 연산자는 creators, producers, observers 그리고 mutators로 분리된다.
 - 좋은 ADT는 명확한 명세를 제공하기에 잠재적 버그를 줄이고 간단한 연산 뒤에 구현을 숨겨 이해하기 쉽게 하며 표현독립성으로 변화에 준비 되었다.
 
-## ****Testing an Abstract Data Type****
+## Testing an Abstract Data Type
 
 - ADT에 대한 테스트 케이스는 서로와 상호작용한다.
 - creators, producers, mutators 같은 경우는 실제 값을 관찰하여 테스트 하는게 가장 효율적이다.

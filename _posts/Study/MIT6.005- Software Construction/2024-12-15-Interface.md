@@ -23,7 +23,7 @@ render_with_liquid: true
 - 하나의 클래스로만 추상 데이터 타입을 표시한다면 더 어려워진다. → 일반적인 클래스는 두 표현을 동시에 적을 수 없다.
 - 자바의 Static checking은 ADT에 대해서 컴파일러가 여러 실수를 잡을 수 있게도 도와준다.
 
-## ****Example: MyString****
+## Example: MyString
 
 - `MyString` 의 예제를 다시 보자
     

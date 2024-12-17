@@ -1,3 +1,15 @@
+---
+author: "unggu"
+date: 2024-01-11 12:17:32 +0800
+categories: [SSAFY, Java]
+tags: [SSAFY, Java]
+render_with_liquid: true
+comments: true
+image:
+  path: https://www.ssafy.com/swp/images/sns_img.png
+---
+
+
 # Java - lamda
 
 - 함수형 프로그래밍의 형태로 재사용 가능한 코드 블록

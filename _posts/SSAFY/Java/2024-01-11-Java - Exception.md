@@ -1,3 +1,15 @@
+---
+author: "unggu"
+date: 2024-01-11 12:17:32 +0800
+categories: [SSAFY, Java]
+tags: [SSAFY, Java]
+render_with_liquid: true
+comments: true
+image:
+  path: https://www.ssafy.com/swp/images/sns_img.png
+---
+
+
 # Java - Exception
 
 - 어떤 원인에 의해 오동작 하거나 비 정상적 종료되는 경우

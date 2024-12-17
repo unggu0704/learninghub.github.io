@@ -1,3 +1,11 @@
+---
+author: "unggu"
+date: 2023-11-04 05:37:22 +0800
+categories: [Computer Science, Operating System]
+tags: [CS, OS]
+render_with_liquid: true
+comments: true
+---
 # Process & Thread
 
 ## Process VS Thread
@@ -16,7 +24,7 @@
 각 Thread는 부모 프로세스의 대부분을 공유한다. (각자 Stack만 가짐)*
 > 
 
-![Untitled](Process%20&%20Thread%20d16147d99af34dda9b9523bc3b567ad3/Untitled.png)
+![Untitled]({{ site.baseurl }}{{ page.url }}Process%20&%20Thread%20d16147d99af34dda9b9523bc3b567ad3/Untitled.png)
 
 - Code : 코드 자체를 구성하는 메모리 영역
 - Data : 전역 변수… 배열.. 등등
@@ -61,4 +69,4 @@
 
 ### Process의 일반적인 구조
 
-![Untitled](Process%20&%20Thread%20d16147d99af34dda9b9523bc3b567ad3/Untitled%201.png)
+![Untitled]({{ site.baseurl }}{{ page.url }}Process%20&%20Thread%20d16147d99af34dda9b9523bc3b567ad3/Untitled%201.png)

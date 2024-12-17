@@ -1,3 +1,11 @@
+---
+author: "unggu"
+date: 2023-11-04 05:37:22 +0800
+categories: [Computer Science, Operating System]
+tags: [CS, OS]
+render_with_liquid: true
+comments: true
+---
 # Page Replacement Algorithm
 
 > Main / Virtual Memory에서 hit 하지 못하고 페이지 폴트 발생시 가득 차 있을 때 어떤 process를 swap out할 것인지를 결정하는 문제
@@ -16,7 +24,7 @@
 - 초기화 코드에서 특출난 방법
     - 최초로 프로세스 실행될 때만 시키는 역할 → 초기화 코드
     
-    ![Untitled](Page%20Replacement%20Algorithm%20634b62471ad24186888ef41cea009f29/Untitled.png)
+    ![Untitled]({{ site.baseurl }}{{ page.url }}Page%20Replacement%20Algorithm%20634b62471ad24186888ef41cea009f29/Untitled.png)
     
 
 ### 2. OPT 알고리즘
@@ -24,14 +32,14 @@
 - 앞으로 가장 안쓸 놈을 골라서 내보낸다.
 - 근데 어떻게 미래를 예측하지…
 
-![Untitled](Page%20Replacement%20Algorithm%20634b62471ad24186888ef41cea009f29/Untitled%201.png)
+![Untitled]({{ site.baseurl }}{{ page.url }}Page%20Replacement%20Algorithm%20634b62471ad24186888ef41cea009f29/Untitled%201.png)
 
 ### 3. LRU 알고리즘
 
 - 최근에 가장 사용하지 않은 페이지를 내보낸다.
 - 가장 실용적임
 
-![Untitled](Page%20Replacement%20Algorithm%20634b62471ad24186888ef41cea009f29/Untitled%202.png)
+![Untitled]({{ site.baseurl }}{{ page.url }}Page%20Replacement%20Algorithm%20634b62471ad24186888ef41cea009f29/Untitled%202.png)
 
 ### 4. LFU
 

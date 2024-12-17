@@ -20,7 +20,7 @@ comments: true
 > `New` → `Ready` → `waiting` → `Running` → `Terminated`
 > 
 
-![Untitled](CPU%20Scheduling%20dc2a1e24ac804113b8bcc3e85d784e7e/Untitled.png)
+![Untitled]({{ site.baseurl }}{{ page.url }}CPU%20Scheduling%20dc2a1e24ac804113b8bcc3e85d784e7e/Untitled.png)
 
 ### dispatcher
 

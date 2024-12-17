@@ -1,3 +1,11 @@
+---
+author: "unggu"
+date: 2023-11-04 05:37:22 +0800
+categories: [Computer Science, Operating System]
+tags: [CS, OS]
+render_with_liquid: true
+comments: true
+---
 # Process Control Block
 
 > 프로세스의 데이터들을 저장해 놓은 곳 프로세스의 정보 그 자체
@@ -5,7 +13,7 @@
 - Mulit process 환경에 있어서 스케줄링을 위해 프로세스에 대한 정보를 가지고 있는 meta data가 필요
 - 각 프로세스가 가지고 있는 고유한 PCB를 생성
     
-    ![Untitled](Process%20Control%20Block%2045a8d0cf57c84995931dc6e03c3d16f7/Untitled.png)
+    ![Untitled]({{ site.baseurl }}{{ page.url }}Process%20Control%20Block%2045a8d0cf57c84995931dc6e03c3d16f7/Untitled.png)
     
     - 언제든지 다시 작업 시작할 때 보는 메모장 같은 존재
 

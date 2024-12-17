@@ -1,7 +1,7 @@
 ---
 author: "unggu"
 date: 2023-11-04 05:37:22 +0800
-categories: [CS, Operating System]
+categories: [Computer Science, Operating System]
 tags: [CS, OS]
 render_with_liquid: true
 comments: true

@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: Unggu # the main title
 
-tagline: 뇌 원격 저장소 # it will display as the subtitle
+tagline: 야근하기 싫어요 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  엉구
+  개발자 김규형입니다.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -38,11 +38,10 @@ social:
   email: kyuhyeong.kim@kt.com
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
     - https://github.com/unggu0704 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/%EA%B7%9C%ED%98%95-%EA%B9%80-5b5b10299
 
 # Site Verification Settings
 webmaster_verifications:
@@ -88,7 +87,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: dark
+theme_mode: 
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url

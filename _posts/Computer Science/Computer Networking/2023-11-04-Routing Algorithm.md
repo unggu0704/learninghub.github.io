@@ -1,14 +1,14 @@
 ---
 author: "unggu"
 date: 2023-11-04 05:37:22 +0800
-categories: [CS, Computer Network]
+categories: [Computer Science, Computer Network]
 tags: [CS, computer network]
 render_with_liquid: true
 comments: true
 ---
 # Routing Algorithm
 
-![Untitled](Routing%20Algorithm%20a8076a5e5dfa435ab92ec4ca0c4d6255/Untitled.png)
+![Untitled]({{ site.baseurl }}{{ page.url }}/Routing%20Algorithm%20a8076a5e5dfa435ab92ec4ca0c4d6255/Untitled.png)
 
 ### IGP
 

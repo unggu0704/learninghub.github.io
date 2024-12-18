@@ -2,7 +2,7 @@
 author: "unggu"
 date: 2024-06-11 02:32:12 +0800
 categories: [SSAFY, Spring]
-tags: [SSAFY, Spring, JWT, Spring MVC, AOP]
+tags: [SSAFY, Spring, JWT, Spring MVC, AOP, BackEnd]
 render_with_liquid: true
 comments: true
 image:

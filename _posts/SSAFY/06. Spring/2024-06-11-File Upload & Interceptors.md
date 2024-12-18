@@ -83,7 +83,7 @@ image:
     - Header 검증
 - mehod 실행 시점
     
-    ![Untitled](resources/fiimg/Untitled.png)
+    ![Untitled]({{ site.baseurl }}{{ page.url }}/resources/fiimg/Untitled.png)
     
     **HandlerInterceptor 제공**
     
@@ -120,4 +120,4 @@ image:
 
 ### Filter vs Interceptor vs AoP
 
-![Untitled](resources/fiimg/Untitled%201.png)
+![Untitled]({{ site.baseurl }}{{ page.url }}/resources/fiimg/Untitled%201.png)

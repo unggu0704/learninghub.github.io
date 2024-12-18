@@ -1,7 +1,7 @@
 ---
 author: "unggu"
 date: 2023-11-04 05:37:22 +0800
-categories: [CS, Computer Network]
+categories: [Computer Science, Computer Network]
 tags: [CS, computer network]
 render_with_liquid: true
 comments: true

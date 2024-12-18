@@ -1,11 +1,11 @@
 ---
 author: 김규형
-date: 2024-12-16 10:14:00 +0800
+date: 2024-05-12 10:14:00 +0800
 categories: [Framework, Spring Essentials]
 tags: [BackEnd, SpringBoot, Spring]
 render_with_liquid: true
 comments: true
-image
+image: 
   path: https://velog.velcdn.com/images/zosungwoo/post/fee02cff-da23-4681-a387-8e810b67480c/image.jpg
 ---
 

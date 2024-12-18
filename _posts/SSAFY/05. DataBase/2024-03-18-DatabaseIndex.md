@@ -1,4 +1,5 @@
 ---
+title: Database Index
 author: "unggu"
 date: 2024-03-18 12:17:32 +0800
 categories: [SSAFY, DB]
